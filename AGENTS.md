@@ -1,19 +1,25 @@
 ## Learned User Preferences
 - Deliver real Microsoft Word documents for protocol/docs work; do not leave zero-byte placeholders.
-- In the literature matrix, leave Period, Data Used, Method, and Key Findings blank (or marked pending) until systematic full-text extraction; do not invent those fields from title/abstract alone.
+- In the literature matrix, leave Period, Data Used, Method, and Key Findings blank (or marked pending) until systematic full-text extraction; do not invent those fields from title/abstract alone, and do not guess sensors or datasets (e.g. Landsat) without full text.
 - Do not mark World Bank Policy Research Working Papers as Peer Reviewed = Yes; record them as not confirmed / working paper.
 - Follow a seed-by-seed Litmaps workflow: add only the instructed paper and tags; do not Explore Related, save grey suggested nodes, download PDFs, or finalize research gaps until asked.
+- For related-paper discovery, record blue-outline recommendation nodes as C### candidates first; do not Add to Litmap until after screening decisions.
 - Match the user’s specified completion-report format, and keep Research_Progress_Log Status / Problem/Issue fields synced when the user asks to edit the report.
-- Save Litmaps verification screenshots under `02_Literature_Review/Litmaps_Screenshots/` using step-based names like `litmaps_step_2_2_*_v01.png`.
-- When the user pastes Litmaps screenshots, treat those as verification evidence (agent browser often cannot stay signed into Litmaps).
-- Prefer publisher version-of-record year over Litmaps node year when they conflict; use DOI as the primary unique identifier and do not create duplicate matrix rows for Litmaps author/year label mismatches.
+- Save Litmaps verification screenshots under `02_Literature_Review/Litmaps_Screenshots/` using step-based names like `litmaps_step_2_2_*_v01.png`; when the user pastes Litmaps screenshots, treat those as verification evidence (agent browser often cannot stay signed into Litmaps).
+- Prefer final journal issue / version-of-record year over online-first, copyright-line, or Litmaps node year; record Online first separately in notes; use DOI as the primary unique identifier and do not create duplicate matrix rows for Litmaps author/year label mismatches.
+- When applying paper completion packages, never replace the master `Literature_Review_Matrix.xlsx` with a generated matrix; merge only that paper’s completed fields into the existing workbook.
+- For paywalled papers without full text, keep them as partial reviews from verified abstract and publisher snippets rather than excluding them; when a publisher binary PDF is blocked but author-uploaded or other open full text exists, complete the review from that text and note the full-text source.
+- When same authors share a final publication year, use APA same-year lettering (e.g. 2023a/2023b) by reference-title alphabetical order; keep overlapping same-author/same-design papers as separate matrix rows but treat them as one related evidence family in synthesis without auto-copying fields or double-counting findings.
+- Treat scenario/ML land-cover or LST predictions as non-causal; treat ecosystem-service (ESV) / benefit-transfer results as supplementary to core forest-loss, fragmentation, and above-ground carbon outcomes; keep distinct spatial domains explicit in notes and do not compare them as if they share the same denominator.
 
 ## Learned Workspace Facts
 - Research focus: post-2017 Rohingya refugee influx impacts on forest loss, forest fragmentation, and associated above-ground carbon loss in Ukhiya and Teknaf, Cox’s Bazar, Bangladesh.
-- Literature review assets live in `02_Literature_Review/` (`Literature_Search_Protocol_v01.docx`, `Literature_Review_Matrix.xlsx` with `Literature_Matrix`, `Search_Log`, and `Litmaps_Discovery_Screening` sheets, `Litmaps_Screenshots/`).
+- Literature review assets live in `02_Literature_Review/` (`Literature_Search_Protocol_v01.docx`, `Literature_Review_Matrix.xlsx` with `Literature_Matrix`, `Search_Log`, and `Litmaps_Discovery_Screening` sheets, `Litmaps_Screenshots/`, `Research_Papers/`, `Paper_Extraction_Notes/`, `Literature_Notes.docx`).
 - Project progress is tracked in `00_Project_Management/Research_Progress_Log.xlsx`.
 - Workspace uses numbered top-level folders `00_Project_Management` through `12_Publication`.
 - Litmaps topic map name: `Rohingya Forest Impact — Cox's Bazar`.
 - Matrix Paper IDs use `P###`; Search Log IDs use `S###`; Litmaps discovery candidates use `C###` (separate from matrix Paper IDs).
 - Core Litmaps seed papers (P001–P008): Hassan et al. 2018 (P001), Dampha et al. 2022 (P002), Hassan et al. 2023 (P003), Rahaman et al. 2022 (P004), Mahmood et al. 2025 (P005), Mitra et al. 2025 (P006), Arkhangelsky et al. 2021 (P007), Salemi 2025 working paper (P008).
-- Litmaps tags in use include Seed Paper, Direct Forest Change, Causal Inference, Fragmentation, Machine Learning, Biomass and Carbon, Conservation and Restoration, and Methodological Reference.
+- Included master matrix set is P001–P019: seeds P001–P008, discovery P009–P018 (from C001–C010), and Rashid et al. 2021 as P019 (C011).
+- Litmaps tags in use include Seed Paper, Direct Forest Change, Causal Inference, Fragmentation, Machine Learning, Biomass and Carbon, Conservation and Restoration, Methodological Reference, Background and Drivers, Explainable AI, and Validation and Uncertainty.
+- PDFs under `02_Literature_Review/Research_Papers/` use thematic subfolders: `01_Direct_Rohingya_Forest_Studies`, `02_Fragmentation_Studies`, `03_Biomass_Carbon_Studies`, `04_Causal_Inference_Methods`, `05_Comparative_Refugee_Environment_Studies`, and `06_Ecosystem_Service_Studies`.

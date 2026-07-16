@@ -1,0 +1,4320 @@
+=== LINE 193 len=8314 ===
+<timestamp>Thursday, Jul 16, 2026, 11:48 AM (UTC+6)</timestamp>
+<user_query>
+Step 2.4D — P004 Partial Review
+
+P004-ও ScienceDirect-এ paid। ResearchGate-এ শুধু author-এর কাছে full text request করার option আছে। তাই paperটি বাদ না দিয়ে verified abstract ও publisher snippets-এর ভিত্তিতে partial review হিসেবে রাখব।
+
+১. P004 verified metadata
+Paper ID:
+P004
+
+Authors:
+Rahaman, M.; Morshed, M. M.; Bhadra, S.
+
+Year:
+2022
+
+Title:
+An integrated machine learning and remote sensing approach
+for monitoring forest degradation due to Rohingya refugee
+influx in Bangladesh
+
+Journal:
+Remote Sensing Applications: Society and Environment
+
+Volume:
+25
+
+Article number:
+100696
+
+DOI:
+10.1016/j.rsase.2022.100696
+
+Publication Type:
+Journal Article
+
+Peer Reviewed:
+Yes
+
+Official publisher record অনুযায়ী articleটি Volume 25, January 2022-এ প্রকাশিত।
+
+২. Literature Matrix-এর P004 row update
+
+File:
+
+02_Literature_Review\
+Literature_Review_Matrix.xlsx
+
+Sheet:
+
+Literature_Matrix
+Study Area
+Cox’s Bazar District, Bangladesh, with particular emphasis on
+Teknaf and Ukhia, where the largest Rohingya camp concentrations
+are located.
+
+Publisher snippet অনুযায়ী পুরো Cox’s Bazar district study area হিসেবে ব্যবহৃত হয়েছে; district area প্রায় 2,490 km² বলা হয়েছে।
+
+Study Period
+Historical LULC comparison includes imagery representing
+approximately 1990, 1991, 2013 and 2020.
+
+Vegetation-degradation result reported for 2013–2019.
+
+Prediction horizon:
+2030.
+
+Exact image dates require full-text verification.
+
+Accessible publisher snippets 1990, 1991, 2013 ও 2020 imagery উল্লেখ করে, কিন্তু abstract-এর প্রধান vegetation result 2013–2019 হিসেবে report করা হয়েছে। এই discrepancy notes-এ রাখবে।
+
+Data Used
+Multi-temporal satellite imagery and geospatial land-use/
+land-cover data.
+
+Exact satellite sensors, bands, resolutions, training samples
+and validation datasets could not be verified without full text.
+
+এখানে Landsat guess করে লিখবে না, যতক্ষণ না full text পাওয়া যাচ্ছে।
+
+Method
+Three land-use/land-cover change indices were used to monitor
+vegetation degradation.
+
+The study compared Maximum Likelihood Classification,
+Support Vector Machine, Random Forest and Artificial Neural
+Network approaches.
+
+Random Forest was used to identify degradation patterns around
+refugee-camp concentrations and support land-use prediction
+to 2030.
+
+Exact model settings and prediction procedure remain pending.
+
+Publisher introduction চারটি algorithm এবং abstract Random Forest-এর ব্যবহার নিশ্চিত করে।
+
+Main Findings
+Deep vegetation decreased by approximately 74.28 km²
+between 2013 and 2019.
+
+The decline in deep vegetation was accompanied by an increase
+in shallow vegetation.
+
+Teknaf and Ukhia experienced the highest levels of forest
+degradation among the analysed areas.
+
+The projected land-use pattern suggests an increase of
+approximately 150.92 km² in shallow vegetation near refugee
+camps between 2013 and 2030.
+
+এগুলো official abstract থেকে পাওয়া verified result।
+
+Classification Fields
+Forest Loss:
+Yes — deep vegetation decline and forest degradation analysed
+
+Fragmentation:
+No — no formal fragmentation metrics verified
+
+Carbon:
+No
+
+ML/XAI:
+ML: Yes — MLC, SVM, RF and ANN considered;
+Random Forest highlighted in the reported results
+
+XAI:
+No — SHAP or another explainability method not reported
+
+Causal Inference:
+No — observational monitoring and prediction;
+no counterfactual causal design
+Relevance
+Very High
+Limitations
+Full text was unavailable, so satellite sensors, image dates,
+classification accuracy, training-validation strategy, model
+hyperparameters, land-cover indices and prediction procedure
+could not be independently verified.
+
+The study reports associations between refugee-camp locations
+and vegetation degradation but does not implement a causal
+counterfactual design.
+
+It does not quantify fragmentation, biomass/carbon loss or
+prediction uncertainty and does not use explainable AI.
+Research Gap
+The study demonstrates the value of combining remote sensing
+with machine learning for forest-degradation monitoring and
+prediction, but it does not provide a continuous 2001–2025
+annual forest-loss panel, formal fragmentation outcomes,
+above-ground carbon attribution, SHAP-based driver analysis,
+spatially robust validation or SDID-based causal attribution.
+Full Text Status
+Publisher metadata, abstract and section snippets reviewed;
+full text unavailable due to paid access
+File Location
+Full text not downloaded — paid publisher access
+Notes
+Partial extraction only.
+
+Accessible sources report imagery for 1990, 1991, 2013 and
+2020, while the abstract reports the main vegetation change
+for 2013–2019. Exact temporal construction must be checked
+if the full article becomes available.
+৩. Partial extraction notes তৈরি
+
+Location:
+
+02_Literature_Review\
+Paper_Extraction_Notes\
+P004_2022_rahaman_partial_extraction_notes.docx
+
+Document-এর শুরুতে লিখবে:
+
+P004 — Partial Extraction
+
+Extraction Status:
+Partial extraction based on official publisher metadata,
+abstract, introduction and accessible section snippets.
+
+The complete article was not available through open access.
+Methods, accuracy tables and detailed numerical results remain
+unverified.
+
+Headings:
+
+1. Verified Citation
+2. Publication Status
+3. Access Status
+4. Research Objective
+5. Study Area
+6. Reported Study Period
+7. Available Data Information
+8. Land-Cover Monitoring Approach
+9. Machine-Learning Algorithms
+10. Prediction Horizon
+11. Main Findings
+12. Key Numerical Results
+13. Limitations Stated or Observable
+14. Limitations Identified by Us
+15. Relevance to Our Research
+16. Research Gap
+17. Information Pending Full Text
+18. Planned Use in the Literature Review
+Verified Citation
+Rahaman, M., Morshed, M. M., & Bhadra, S. (2022).
+An integrated machine learning and remote sensing approach
+for monitoring forest degradation due to Rohingya refugee
+influx in Bangladesh. Remote Sensing Applications: Society
+and Environment, 25, 100696.
+https://doi.org/10.1016/j.rsase.2022.100696
+৪. Literature Notes update
+
+File:
+
+02_Literatur
+
+=== LINE 194 len=8314 ===
+<timestamp>Thursday, Jul 16, 2026, 11:48 AM (UTC+6)</timestamp>
+<user_query>
+Step 2.4D — P004 Partial Review
+
+P004-ও ScienceDirect-এ paid। ResearchGate-এ শুধু author-এর কাছে full text request করার option আছে। তাই paperটি বাদ না দিয়ে verified abstract ও publisher snippets-এর ভিত্তিতে partial review হিসেবে রাখব।
+
+১. P004 verified metadata
+Paper ID:
+P004
+
+Authors:
+Rahaman, M.; Morshed, M. M.; Bhadra, S.
+
+Year:
+2022
+
+Title:
+An integrated machine learning and remote sensing approach
+for monitoring forest degradation due to Rohingya refugee
+influx in Bangladesh
+
+Journal:
+Remote Sensing Applications: Society and Environment
+
+Volume:
+25
+
+Article number:
+100696
+
+DOI:
+10.1016/j.rsase.2022.100696
+
+Publication Type:
+Journal Article
+
+Peer Reviewed:
+Yes
+
+Official publisher record অনুযায়ী articleটি Volume 25, January 2022-এ প্রকাশিত।
+
+২. Literature Matrix-এর P004 row update
+
+File:
+
+02_Literature_Review\
+Literature_Review_Matrix.xlsx
+
+Sheet:
+
+Literature_Matrix
+Study Area
+Cox’s Bazar District, Bangladesh, with particular emphasis on
+Teknaf and Ukhia, where the largest Rohingya camp concentrations
+are located.
+
+Publisher snippet অনুযায়ী পুরো Cox’s Bazar district study area হিসেবে ব্যবহৃত হয়েছে; district area প্রায় 2,490 km² বলা হয়েছে।
+
+Study Period
+Historical LULC comparison includes imagery representing
+approximately 1990, 1991, 2013 and 2020.
+
+Vegetation-degradation result reported for 2013–2019.
+
+Prediction horizon:
+2030.
+
+Exact image dates require full-text verification.
+
+Accessible publisher snippets 1990, 1991, 2013 ও 2020 imagery উল্লেখ করে, কিন্তু abstract-এর প্রধান vegetation result 2013–2019 হিসেবে report করা হয়েছে। এই discrepancy notes-এ রাখবে।
+
+Data Used
+Multi-temporal satellite imagery and geospatial land-use/
+land-cover data.
+
+Exact satellite sensors, bands, resolutions, training samples
+and validation datasets could not be verified without full text.
+
+এখানে Landsat guess করে লিখবে না, যতক্ষণ না full text পাওয়া যাচ্ছে।
+
+Method
+Three land-use/land-cover change indices were used to monitor
+vegetation degradation.
+
+The study compared Maximum Likelihood Classification,
+Support Vector Machine, Random Forest and Artificial Neural
+Network approaches.
+
+Random Forest was used to identify degradation patterns around
+refugee-camp concentrations and support land-use prediction
+to 2030.
+
+Exact model settings and prediction procedure remain pending.
+
+Publisher introduction চারটি algorithm এবং abstract Random Forest-এর ব্যবহার নিশ্চিত করে।
+
+Main Findings
+Deep vegetation decreased by approximately 74.28 km²
+between 2013 and 2019.
+
+The decline in deep vegetation was accompanied by an increase
+in shallow vegetation.
+
+Teknaf and Ukhia experienced the highest levels of forest
+degradation among the analysed areas.
+
+The projected land-use pattern suggests an increase of
+approximately 150.92 km² in shallow vegetation near refugee
+camps between 2013 and 2030.
+
+এগুলো official abstract থেকে পাওয়া verified result।
+
+Classification Fields
+Forest Loss:
+Yes — deep vegetation decline and forest degradation analysed
+
+Fragmentation:
+No — no formal fragmentation metrics verified
+
+Carbon:
+No
+
+ML/XAI:
+ML: Yes — MLC, SVM, RF and ANN considered;
+Random Forest highlighted in the reported results
+
+XAI:
+No — SHAP or another explainability method not reported
+
+Causal Inference:
+No — observational monitoring and prediction;
+no counterfactual causal design
+Relevance
+Very High
+Limitations
+Full text was unavailable, so satellite sensors, image dates,
+classification accuracy, training-validation strategy, model
+hyperparameters, land-cover indices and prediction procedure
+could not be independently verified.
+
+The study reports associations between refugee-camp locations
+and vegetation degradation but does not implement a causal
+counterfactual design.
+
+It does not quantify fragmentation, biomass/carbon loss or
+prediction uncertainty and does not use explainable AI.
+Research Gap
+The study demonstrates the value of combining remote sensing
+with machine learning for forest-degradation monitoring and
+prediction, but it does not provide a continuous 2001–2025
+annual forest-loss panel, formal fragmentation outcomes,
+above-ground carbon attribution, SHAP-based driver analysis,
+spatially robust validation or SDID-based causal attribution.
+Full Text Status
+Publisher metadata, abstract and section snippets reviewed;
+full text unavailable due to paid access
+File Location
+Full text not downloaded — paid publisher access
+Notes
+Partial extraction only.
+
+Accessible sources report imagery for 1990, 1991, 2013 and
+2020, while the abstract reports the main vegetation change
+for 2013–2019. Exact temporal construction must be checked
+if the full article becomes available.
+৩. Partial extraction notes তৈরি
+
+Location:
+
+02_Literature_Review\
+Paper_Extraction_Notes\
+P004_2022_rahaman_partial_extraction_notes.docx
+
+Document-এর শুরুতে লিখবে:
+
+P004 — Partial Extraction
+
+Extraction Status:
+Partial extraction based on official publisher metadata,
+abstract, introduction and accessible section snippets.
+
+The complete article was not available through open access.
+Methods, accuracy tables and detailed numerical results remain
+unverified.
+
+Headings:
+
+1. Verified Citation
+2. Publication Status
+3. Access Status
+4. Research Objective
+5. Study Area
+6. Reported Study Period
+7. Available Data Information
+8. Land-Cover Monitoring Approach
+9. Machine-Learning Algorithms
+10. Prediction Horizon
+11. Main Findings
+12. Key Numerical Results
+13. Limitations Stated or Observable
+14. Limitations Identified by Us
+15. Relevance to Our Research
+16. Research Gap
+17. Information Pending Full Text
+18. Planned Use in the Literature Review
+Verified Citation
+Rahaman, M., Morshed, M. M., & Bhadra, S. (2022).
+An integrated machine learning and remote sensing approach
+for monitoring forest degradation due to Rohingya refugee
+influx in Bangladesh. Remote Sensing Applications: Society
+and Environment, 25, 100696.
+https://doi.org/10.1016/j.rsase.2022.100696
+৪. Literature Notes update
+
+File:
+
+02_Literatur
+
+=== LINE 195 len=8314 ===
+<timestamp>Thursday, Jul 16, 2026, 11:48 AM (UTC+6)</timestamp>
+<user_query>
+Step 2.4D — P004 Partial Review
+
+P004-ও ScienceDirect-এ paid। ResearchGate-এ শুধু author-এর কাছে full text request করার option আছে। তাই paperটি বাদ না দিয়ে verified abstract ও publisher snippets-এর ভিত্তিতে partial review হিসেবে রাখব।
+
+১. P004 verified metadata
+Paper ID:
+P004
+
+Authors:
+Rahaman, M.; Morshed, M. M.; Bhadra, S.
+
+Year:
+2022
+
+Title:
+An integrated machine learning and remote sensing approach
+for monitoring forest degradation due to Rohingya refugee
+influx in Bangladesh
+
+Journal:
+Remote Sensing Applications: Society and Environment
+
+Volume:
+25
+
+Article number:
+100696
+
+DOI:
+10.1016/j.rsase.2022.100696
+
+Publication Type:
+Journal Article
+
+Peer Reviewed:
+Yes
+
+Official publisher record অনুযায়ী articleটি Volume 25, January 2022-এ প্রকাশিত।
+
+২. Literature Matrix-এর P004 row update
+
+File:
+
+02_Literature_Review\
+Literature_Review_Matrix.xlsx
+
+Sheet:
+
+Literature_Matrix
+Study Area
+Cox’s Bazar District, Bangladesh, with particular emphasis on
+Teknaf and Ukhia, where the largest Rohingya camp concentrations
+are located.
+
+Publisher snippet অনুযায়ী পুরো Cox’s Bazar district study area হিসেবে ব্যবহৃত হয়েছে; district area প্রায় 2,490 km² বলা হয়েছে।
+
+Study Period
+Historical LULC comparison includes imagery representing
+approximately 1990, 1991, 2013 and 2020.
+
+Vegetation-degradation result reported for 2013–2019.
+
+Prediction horizon:
+2030.
+
+Exact image dates require full-text verification.
+
+Accessible publisher snippets 1990, 1991, 2013 ও 2020 imagery উল্লেখ করে, কিন্তু abstract-এর প্রধান vegetation result 2013–2019 হিসেবে report করা হয়েছে। এই discrepancy notes-এ রাখবে।
+
+Data Used
+Multi-temporal satellite imagery and geospatial land-use/
+land-cover data.
+
+Exact satellite sensors, bands, resolutions, training samples
+and validation datasets could not be verified without full text.
+
+এখানে Landsat guess করে লিখবে না, যতক্ষণ না full text পাওয়া যাচ্ছে।
+
+Method
+Three land-use/land-cover change indices were used to monitor
+vegetation degradation.
+
+The study compared Maximum Likelihood Classification,
+Support Vector Machine, Random Forest and Artificial Neural
+Network approaches.
+
+Random Forest was used to identify degradation patterns around
+refugee-camp concentrations and support land-use prediction
+to 2030.
+
+Exact model settings and prediction procedure remain pending.
+
+Publisher introduction চারটি algorithm এবং abstract Random Forest-এর ব্যবহার নিশ্চিত করে।
+
+Main Findings
+Deep vegetation decreased by approximately 74.28 km²
+between 2013 and 2019.
+
+The decline in deep vegetation was accompanied by an increase
+in shallow vegetation.
+
+Teknaf and Ukhia experienced the highest levels of forest
+degradation among the analysed areas.
+
+The projected land-use pattern suggests an increase of
+approximately 150.92 km² in shallow vegetation near refugee
+camps between 2013 and 2030.
+
+এগুলো official abstract থেকে পাওয়া verified result।
+
+Classification Fields
+Forest Loss:
+Yes — deep vegetation decline and forest degradation analysed
+
+Fragmentation:
+No — no formal fragmentation metrics verified
+
+Carbon:
+No
+
+ML/XAI:
+ML: Yes — MLC, SVM, RF and ANN considered;
+Random Forest highlighted in the reported results
+
+XAI:
+No — SHAP or another explainability method not reported
+
+Causal Inference:
+No — observational monitoring and prediction;
+no counterfactual causal design
+Relevance
+Very High
+Limitations
+Full text was unavailable, so satellite sensors, image dates,
+classification accuracy, training-validation strategy, model
+hyperparameters, land-cover indices and prediction procedure
+could not be independently verified.
+
+The study reports associations between refugee-camp locations
+and vegetation degradation but does not implement a causal
+counterfactual design.
+
+It does not quantify fragmentation, biomass/carbon loss or
+prediction uncertainty and does not use explainable AI.
+Research Gap
+The study demonstrates the value of combining remote sensing
+with machine learning for forest-degradation monitoring and
+prediction, but it does not provide a continuous 2001–2025
+annual forest-loss panel, formal fragmentation outcomes,
+above-ground carbon attribution, SHAP-based driver analysis,
+spatially robust validation or SDID-based causal attribution.
+Full Text Status
+Publisher metadata, abstract and section snippets reviewed;
+full text unavailable due to paid access
+File Location
+Full text not downloaded — paid publisher access
+Notes
+Partial extraction only.
+
+Accessible sources report imagery for 1990, 1991, 2013 and
+2020, while the abstract reports the main vegetation change
+for 2013–2019. Exact temporal construction must be checked
+if the full article becomes available.
+৩. Partial extraction notes তৈরি
+
+Location:
+
+02_Literature_Review\
+Paper_Extraction_Notes\
+P004_2022_rahaman_partial_extraction_notes.docx
+
+Document-এর শুরুতে লিখবে:
+
+P004 — Partial Extraction
+
+Extraction Status:
+Partial extraction based on official publisher metadata,
+abstract, introduction and accessible section snippets.
+
+The complete article was not available through open access.
+Methods, accuracy tables and detailed numerical results remain
+unverified.
+
+Headings:
+
+1. Verified Citation
+2. Publication Status
+3. Access Status
+4. Research Objective
+5. Study Area
+6. Reported Study Period
+7. Available Data Information
+8. Land-Cover Monitoring Approach
+9. Machine-Learning Algorithms
+10. Prediction Horizon
+11. Main Findings
+12. Key Numerical Results
+13. Limitations Stated or Observable
+14. Limitations Identified by Us
+15. Relevance to Our Research
+16. Research Gap
+17. Information Pending Full Text
+18. Planned Use in the Literature Review
+Verified Citation
+Rahaman, M., Morshed, M. M., & Bhadra, S. (2022).
+An integrated machine learning and remote sensing approach
+for monitoring forest degradation due to Rohingya refugee
+influx in Bangladesh. Remote Sensing Applications: Society
+and Environment, 25, 100696.
+https://doi.org/10.1016/j.rsase.2022.100696
+৪. Literature Notes update
+
+File:
+
+02_Literatur
+
+=== LINE 201 len=766 ===
+<timestamp>Thursday, Jul 16, 2026, 11:51 AM (UTC+6)</timestamp>
+<user_query>
+Run the `continual-learning` skill now. Use the `agents-memory-updater` subagent for the full memory update flow. Use incremental transcript processing with index file `F:\Ratul\Ruhinga\Rohingya_Forest_Impact_Research\.cursor\hooks\state\continual-learning-index.json`: only consider transcripts not in the index or transcripts whose mtime is newer than indexed mtime. Have the subagent refresh index mtimes, remove entries for deleted transcripts, and update `AGENTS.md` only for high-signal recurring user corrections and durable workspace facts. Exclude one-off/transient details and secrets. If no meaningful updates exist, respond exactly: No high-signal memory updates.
+</user_query>
+
+=== LINE 204 len=7495 ===
+<timestamp>Thursday, Jul 16, 2026, 11:58 AM (UTC+6)</timestamp>
+<user_query>
+এখন Step 2.4E — P005 শুরু হবে।
+
+এই paperটি open access, তাই P003/P004-এর মতো partial review নয়; full-text review করতে হবে। Official record অনুযায়ী paperটি Environmental Challenges, Volume 18, April 2025, article 101063।
+
+P005 — Verified metadata
+Paper ID:
+P005
+
+Authors:
+Hossain Mahmood
+Chameli Saha
+Sanjoy Saha
+
+Year:
+2025
+
+Title:
+Tracking forest recovery: Early biomass and carbon stock
+monitoring in the Rohingya Refugee camps,
+Cox's Bazar, Bangladesh
+
+Journal:
+Environmental Challenges
+
+Volume:
+18
+
+Article number:
+101063
+
+DOI:
+10.1016/j.envc.2024.101063
+
+Publication Type:
+Research Article
+
+Peer Reviewed:
+Yes
+
+Access:
+Open Access
+
+Official page 2025 issue year দেখালেও copyright line-এ 2024 আছে, কারণ DOI/manuscript processing 2024-এ হয়েছিল। Master matrix-এর Year হবে 2025।
+
+১. PDF download ও save
+
+Official ScienceDirect page-এ:
+
+View PDF
+
+চাপবে।
+
+Rename:
+
+2025_mahmood_tracking_forest_recovery_biomass_carbon.pdf
+
+Save location:
+
+F:\Ratul\Ruhinga\Rohingya_Forest_Impact_Research\
+02_Literature_Review\
+Research_Papers\
+03_Biomass_Carbon_Studies\
+2025_mahmood_tracking_forest_recovery_biomass_carbon.pdf
+
+03_Biomass_Carbon_Studies folder না থাকলে তৈরি করবে।
+
+২. Extraction notes তৈরি
+
+Location:
+
+02_Literature_Review\
+Paper_Extraction_Notes\
+P005_2025_mahmood_extraction_notes.docx
+
+Headings:
+
+P005 — Full-Text Extraction
+
+1. Verified Citation
+2. Publication Status
+3. Research Objective
+4. Study Area
+5. Restoration Context
+6. Study Period and Fieldwork Date
+7. Restoration Sites
+8. Sampling Design
+9. Plot Size and Number of Plots
+10. Planted and Naturally Regenerated Species
+11. Tree Measurement Variables
+12. Biomass Estimation Method
+13. Above-Ground Biomass
+14. Below-Ground Biomass
+15. Carbon Conversion Method
+16. Carbon Pools
+17. Soil Sampling and Soil Depth
+18. Allometric Models
+19. Model Validation
+20. Main Findings
+21. Key Numerical Results
+22. Restoration Implications
+23. Author-Stated Limitations
+24. Limitations Identified by Us
+25. Relevance to Our Research
+26. Research Gap
+27. How This Paper Will Be Used
+28. Important Tables and Figures
+৩. Matrix-এর P005 metadata update
+
+File:
+
+02_Literature_Review\
+Literature_Review_Matrix.xlsx
+
+Sheet:
+
+Literature_Matrix
+Study area
+Restored forest sites within and around the Rohingya refugee
+camp landscape, Cox’s Bazar South Forest Division, Bangladesh.
+Restoration context
+Approximately 3,200 ha of reserved forest were reported as
+damaged following the Rohingya influx.
+
+Forest-restoration activities began in 2019 across approximately
+292 ha of degraded forest land.
+
+এই figures official abstract-এ report করা হয়েছে।
+
+Data Used
+
+Full text review-এর আগে লিখবে:
+
+Field-based vegetation, biomass, litter, dead-wood, root and
+soil-carbon measurements from restored forest sites.
+
+Detailed plot design and sampling dates pending full-text review.
+Method
+Field inventory of restored vegetation and multiple carbon pools;
+allometric biomass and carbon-stock modelling using basal area;
+soil-carbon measurement to 30 cm depth.
+
+Detailed sampling and laboratory procedures pending full-text review.
+Main findings
+Thirty-four planted timber, fodder, fruit and fuelwood species
+were recorded, together with natural regeneration of 14 native species.
+
+Mean above-ground biomass was approximately 33.34 ± 5.76 t/ha.
+
+Mean below-ground biomass was approximately 2.26 ± 0.32 t/ha.
+
+Total carbon stock across five pools ranged from 8.84 to
+149.86 t/ha, with a mean of 93.90 ± 4.85 t/ha.
+
+Soil carbon was the largest carbon pool.
+
+Official abstract অনুযায়ী above-ground biomass 33.34 ± 5.76 t/ha এবং below-ground biomass 2.26 ± 0.32 t/ha। তবে publisher highlights-এ এই দুইটি উল্টোভাবে লেখা আছে; তাই notes-এ এই inconsistency record করবে এবং abstract/table value-কে provisional reference ধরবে।
+
+Carbon-pool results
+Above-ground tree and undergrowth carbon:
+16.37 t/ha
+
+Litter carbon:
+0.15 t/ha
+
+Dead woody debris carbon:
+0.11 t/ha
+
+Root carbon:
+1.03 t/ha
+
+Soil carbon to 30 cm:
+76.29 t/ha
+
+এগুলো official abstract-এর verified values।
+
+Allometric models
+Above-ground biomass model:
+Ln(Y) = 1.30 + 1.11 Ln(basal area/ha)
+
+Above-ground carbon-stock model:
+Ln(Y) = 0.61 + 1.11 Ln(basal area/ha)
+
+Adjusted R²:
+Greater than 0.97
+
+এই models restored-site monitoring-এর জন্য proposed হয়েছে।
+
+Classification fields
+Forest Loss:
+Indirect context only — the study focuses on restoration,
+not historical forest-loss mapping
+
+Fragmentation:
+No
+
+Carbon:
+Yes — biomass and five carbon pools quantified
+
+ML/XAI:
+No
+
+Causal Inference:
+No — field-based observational restoration assessment
+Relevance
+Very High — Biomass and Carbon
+Full Text Status
+
+PDF download হওয়ার পর:
+
+Open-access full text downloaded — extraction in progress
+
+Review শেষ হলে:
+
+Open-access full text downloaded and reviewed
+৪. বিশেষভাবে যে বিষয়গুলো verify করবে
+
+PDF থেকে exactভাবে বের করতে হবে:
+
+Fieldwork year/date
+Number of restoration sites
+Number of sample plots
+Plot dimensions
+Site age
+Species list
+Diameter threshold
+DBH measurement procedure
+Tree-height measurement
+Above-ground biomass equation source
+Root biomass method
+Carbon fraction
+Soil bulk-density method
+Soil-carbon laboratory method
+Statistical tests
+Model sample size
+RMSE / validation statistics
+Limitations
+
+Abstract থেকে এগুলো অনুমান করবে না।
+
+৫. Literature Notes update
+Theme — Biomass and Carbon
+P005 — Mahmood et al. (2025)
+
+The study provides one of the first field-based estimates of
+biomass and carbon recovery in restored forest sites associated
+with the Rohingya refugee-camp landscape.
+
+The restored sites contained a mean above-ground biomass of
+33.34 ± 5.76 t/ha and below-ground biomass of 2.26 ± 0.32 t/ha.
+Mean carbon stock across five pools was 93.90 ± 4.85 t/ha,
+with soil carbon to 30 cm representing the dominant pool.
+
+The study also developed basal-area-based allometric models for
+above-ground biomass and carbon stock, with adjusted R² values
+above 0.97.
+Critical evidence note
+P005 is highly relevant for defining plausib
+
+=== LINE 205 len=7495 ===
+<timestamp>Thursday, Jul 16, 2026, 11:58 AM (UTC+6)</timestamp>
+<user_query>
+এখন Step 2.4E — P005 শুরু হবে।
+
+এই paperটি open access, তাই P003/P004-এর মতো partial review নয়; full-text review করতে হবে। Official record অনুযায়ী paperটি Environmental Challenges, Volume 18, April 2025, article 101063।
+
+P005 — Verified metadata
+Paper ID:
+P005
+
+Authors:
+Hossain Mahmood
+Chameli Saha
+Sanjoy Saha
+
+Year:
+2025
+
+Title:
+Tracking forest recovery: Early biomass and carbon stock
+monitoring in the Rohingya Refugee camps,
+Cox's Bazar, Bangladesh
+
+Journal:
+Environmental Challenges
+
+Volume:
+18
+
+Article number:
+101063
+
+DOI:
+10.1016/j.envc.2024.101063
+
+Publication Type:
+Research Article
+
+Peer Reviewed:
+Yes
+
+Access:
+Open Access
+
+Official page 2025 issue year দেখালেও copyright line-এ 2024 আছে, কারণ DOI/manuscript processing 2024-এ হয়েছিল। Master matrix-এর Year হবে 2025।
+
+১. PDF download ও save
+
+Official ScienceDirect page-এ:
+
+View PDF
+
+চাপবে।
+
+Rename:
+
+2025_mahmood_tracking_forest_recovery_biomass_carbon.pdf
+
+Save location:
+
+F:\Ratul\Ruhinga\Rohingya_Forest_Impact_Research\
+02_Literature_Review\
+Research_Papers\
+03_Biomass_Carbon_Studies\
+2025_mahmood_tracking_forest_recovery_biomass_carbon.pdf
+
+03_Biomass_Carbon_Studies folder না থাকলে তৈরি করবে।
+
+২. Extraction notes তৈরি
+
+Location:
+
+02_Literature_Review\
+Paper_Extraction_Notes\
+P005_2025_mahmood_extraction_notes.docx
+
+Headings:
+
+P005 — Full-Text Extraction
+
+1. Verified Citation
+2. Publication Status
+3. Research Objective
+4. Study Area
+5. Restoration Context
+6. Study Period and Fieldwork Date
+7. Restoration Sites
+8. Sampling Design
+9. Plot Size and Number of Plots
+10. Planted and Naturally Regenerated Species
+11. Tree Measurement Variables
+12. Biomass Estimation Method
+13. Above-Ground Biomass
+14. Below-Ground Biomass
+15. Carbon Conversion Method
+16. Carbon Pools
+17. Soil Sampling and Soil Depth
+18. Allometric Models
+19. Model Validation
+20. Main Findings
+21. Key Numerical Results
+22. Restoration Implications
+23. Author-Stated Limitations
+24. Limitations Identified by Us
+25. Relevance to Our Research
+26. Research Gap
+27. How This Paper Will Be Used
+28. Important Tables and Figures
+৩. Matrix-এর P005 metadata update
+
+File:
+
+02_Literature_Review\
+Literature_Review_Matrix.xlsx
+
+Sheet:
+
+Literature_Matrix
+Study area
+Restored forest sites within and around the Rohingya refugee
+camp landscape, Cox’s Bazar South Forest Division, Bangladesh.
+Restoration context
+Approximately 3,200 ha of reserved forest were reported as
+damaged following the Rohingya influx.
+
+Forest-restoration activities began in 2019 across approximately
+292 ha of degraded forest land.
+
+এই figures official abstract-এ report করা হয়েছে।
+
+Data Used
+
+Full text review-এর আগে লিখবে:
+
+Field-based vegetation, biomass, litter, dead-wood, root and
+soil-carbon measurements from restored forest sites.
+
+Detailed plot design and sampling dates pending full-text review.
+Method
+Field inventory of restored vegetation and multiple carbon pools;
+allometric biomass and carbon-stock modelling using basal area;
+soil-carbon measurement to 30 cm depth.
+
+Detailed sampling and laboratory procedures pending full-text review.
+Main findings
+Thirty-four planted timber, fodder, fruit and fuelwood species
+were recorded, together with natural regeneration of 14 native species.
+
+Mean above-ground biomass was approximately 33.34 ± 5.76 t/ha.
+
+Mean below-ground biomass was approximately 2.26 ± 0.32 t/ha.
+
+Total carbon stock across five pools ranged from 8.84 to
+149.86 t/ha, with a mean of 93.90 ± 4.85 t/ha.
+
+Soil carbon was the largest carbon pool.
+
+Official abstract অনুযায়ী above-ground biomass 33.34 ± 5.76 t/ha এবং below-ground biomass 2.26 ± 0.32 t/ha। তবে publisher highlights-এ এই দুইটি উল্টোভাবে লেখা আছে; তাই notes-এ এই inconsistency record করবে এবং abstract/table value-কে provisional reference ধরবে।
+
+Carbon-pool results
+Above-ground tree and undergrowth carbon:
+16.37 t/ha
+
+Litter carbon:
+0.15 t/ha
+
+Dead woody debris carbon:
+0.11 t/ha
+
+Root carbon:
+1.03 t/ha
+
+Soil carbon to 30 cm:
+76.29 t/ha
+
+এগুলো official abstract-এর verified values।
+
+Allometric models
+Above-ground biomass model:
+Ln(Y) = 1.30 + 1.11 Ln(basal area/ha)
+
+Above-ground carbon-stock model:
+Ln(Y) = 0.61 + 1.11 Ln(basal area/ha)
+
+Adjusted R²:
+Greater than 0.97
+
+এই models restored-site monitoring-এর জন্য proposed হয়েছে।
+
+Classification fields
+Forest Loss:
+Indirect context only — the study focuses on restoration,
+not historical forest-loss mapping
+
+Fragmentation:
+No
+
+Carbon:
+Yes — biomass and five carbon pools quantified
+
+ML/XAI:
+No
+
+Causal Inference:
+No — field-based observational restoration assessment
+Relevance
+Very High — Biomass and Carbon
+Full Text Status
+
+PDF download হওয়ার পর:
+
+Open-access full text downloaded — extraction in progress
+
+Review শেষ হলে:
+
+Open-access full text downloaded and reviewed
+৪. বিশেষভাবে যে বিষয়গুলো verify করবে
+
+PDF থেকে exactভাবে বের করতে হবে:
+
+Fieldwork year/date
+Number of restoration sites
+Number of sample plots
+Plot dimensions
+Site age
+Species list
+Diameter threshold
+DBH measurement procedure
+Tree-height measurement
+Above-ground biomass equation source
+Root biomass method
+Carbon fraction
+Soil bulk-density method
+Soil-carbon laboratory method
+Statistical tests
+Model sample size
+RMSE / validation statistics
+Limitations
+
+Abstract থেকে এগুলো অনুমান করবে না।
+
+৫. Literature Notes update
+Theme — Biomass and Carbon
+P005 — Mahmood et al. (2025)
+
+The study provides one of the first field-based estimates of
+biomass and carbon recovery in restored forest sites associated
+with the Rohingya refugee-camp landscape.
+
+The restored sites contained a mean above-ground biomass of
+33.34 ± 5.76 t/ha and below-ground biomass of 2.26 ± 0.32 t/ha.
+Mean carbon stock across five pools was 93.90 ± 4.85 t/ha,
+with soil carbon to 30 cm representing the dominant pool.
+
+The study also developed basal-area-based allometric models for
+above-ground biomass and carbon stock, with adjusted R² values
+above 0.97.
+Critical evidence note
+P005 is highly relevant for defining plausib
+
+=== LINE 267 len=11450 ===
+<timestamp>Thursday, Jul 16, 2026, 12:26 PM (UTC+6)</timestamp>
+<user_query>
+ভালো—Step 2.4E locked। এখন Step 2.4F — P006 full-text review শুরু হবে।
+
+P006 open access এবং official Springer PDF available, তাই এটি complete full-text review হবে, partial নয়। Articleটি Population and Environment, Volume 47, article 18; published 27 March 2025 এবং CC BY 4.0 licence-এর অধীনে।
+
+P006 — Verified metadata
+Paper ID:
+P006
+
+Authors:
+Juthi Rani Mitra
+Tanzia Tasneem Ahmed
+Kevin Czajkowski
+
+Year:
+2025
+
+Title:
+Landscape fragmentation and population distribution in refugee camps:
+evidence from the Rohingya refugee influx in Bangladesh
+
+Journal:
+Population and Environment
+
+Volume:
+47
+
+Article number:
+18
+
+Published:
+27 March 2025
+
+DOI:
+10.1007/s11111-025-00489-4
+
+Publication Type:
+Original Research Article
+
+Peer Reviewed:
+Yes
+
+Access:
+Open Access — CC BY 4.0
+
+Official Springer record metadata, publication date এবং access status confirm করে।
+
+1. PDF download এবং save
+
+Filename:
+
+2025_mitra_landscape_fragmentation_population_distribution.pdf
+
+Location:
+
+02_Literature_Review\
+Research_Papers\
+02_Fragmentation_Studies\
+2025_mitra_landscape_fragmentation_population_distribution.pdf
+
+Official Springer page থেকে Download PDF ব্যবহার করবে। Paperটি 29-page open-access article।
+
+2. Extraction notes তৈরি
+
+Location:
+
+02_Literature_Review\
+Paper_Extraction_Notes\
+P006_2025_mitra_extraction_notes.docx
+
+Headings:
+
+P006 — Full-Text Extraction
+
+1. Verified Citation
+2. Publication Status
+3. Research Objectives
+4. Study Area
+5. Camp Coverage
+6. Study Period and Image Dates
+7. Satellite Dataset
+8. Ancillary Data
+9. Image Bands and Resolution
+10. Training and Validation Samples
+11. Random Forest Model
+12. Classification Accuracy
+13. LULC Classes
+14. Change-Detection Method
+15. Fragmentation Software
+16. Fragmentation Metrics
+17. NDVI Analysis
+18. Camp-Specific Population Analysis
+19. Correlation Analysis
+20. Main Findings
+21. Forest-Loss Results
+22. Settlement-Expansion Results
+23. Fragmentation Results
+24. Camp-Level Results
+25. Restoration Signals
+26. Author Interpretation
+27. Policy Implications
+28. Author-Stated Limitations
+29. Limitations Identified by Us
+30. Relevance to Our Research
+31. Research Gap
+32. How This Paper Will Be Used
+33. Important Tables and Figures
+34. Numerical Inconsistencies
+3. Literature Matrix-এর P006 row update
+Study Area
+Approximately 2,500 ha covering 34 Rohingya refugee camps
+in Ukhia and Teknaf, Cox’s Bazar District.
+
+Camp clusters include Kutupalong–Balukhali, Nayapara and
+scattered camps including Camps 14, 15, 16, 21, 22 and 23.
+
+The study considered the 34 Cox’s Bazar camps and excluded Bhasan Char.
+
+Study Period
+Pre-influx image:
+30 November 2016
+
+Post-influx image:
+3 January 2024
+
+Comparison period:
+2016–2024
+Data Used
+Sentinel-2A imagery;
+Humanitarian Response camp-boundary shapefile;
+UNHCR 2024 camp-level population data;
+high-resolution Google Earth Engine reference imagery.
+
+The study used Sentinel-2A images dated 30 November 2016 and 3 January 2024 and processed the classification in Google Earth Engine.
+
+Image characteristics
+Bands:
+B2 — Blue
+B3 — Green
+B4 — Red
+B8 — Near Infrared
+
+Spatial resolution:
+10 m
+
+Projection:
+WGS 1984 UTM Zone 46N
+
+Season:
+Winter / low-cloud dry-season imagery
+LULC Classes
+1. Forest
+2. Water
+3. Agriculture/Open Field
+4. Settlement
+Training and validation
+Total reference samples:
+Approximately 2,000 per image
+
+Split:
+Approximately 80% training
+20% validation
+
+2016:
+Training = 1,575
+Validation = 425
+
+2024:
+Training = 1,607
+Validation = 393
+
+Class-specific sample counts are reported in Table 1.
+
+Random Forest model
+Classifier:
+Random Forest
+
+Number of trees:
+200
+
+Features per split:
+Square root of the total number of features
+
+Platform:
+Google Earth Engine
+
+The paper used 200 decision trees and the default square-root feature-selection rule.
+
+Accuracy
+2016 Overall Accuracy:
+97.6%
+
+2016 Kappa:
+0.97
+
+2024 Overall Accuracy:
+96.9%
+
+2024 Kappa:
+0.96
+
+For 2024, class-level user’s accuracy ranged from 92.5% to 100%, while producer’s accuracy ranged approximately from 95.8% to 99%.
+
+Change-detection method
+Post-classification categorical change detection using
+ArcGIS Pro Change Detection Wizard.
+
+The analysis identified conversions from forest, agriculture/
+open field and water into settlement between 2016 and 2024.
+Fragmentation method
+Software:
+FRAGSTATS 4.2
+
+Input:
+Classified TIFF images for 2016 and 2024
+
+Neighbour rule:
+Queen’s contiguity — 8-neighbour
+Fragmentation metrics
+Class-level metrics
+Class Area — CA
+Percentage of Landscape — PLAND
+Number of Patches — NP
+Patch Density — PD
+Patch Cohesion Index — COHESION
+Landscape Division Index — DIVISION
+Aggregation Index — AI
+Landscape-level metrics
+Number of Patches — NP
+Patch Density — PD
+
+The paper used seven class-level metrics and two landscape-level metrics.
+
+4. Main findings
+Forest and settlement change
+Forest:
+2016 = 1,688.8 ha
+2024 = 767.3 ha
+Change = −921.5 ha
+Percentage decline = 54.6%
+
+Settlement:
+2016 = 144.8 ha
+2024 = 1,011.5 ha
+Change = +866.7 ha
+Percentage increase = 598.5%
+
+Agriculture/Open Field:
+562.9 ha → 659.3 ha
+Change = +17.1%
+
+Water:
+99.6 ha → 58.0 ha
+Change = −41.8%
+
+These values are reported in the article abstract and class-metric table.
+
+Conversion to settlement
+Forest converted to settlement:
+695.2 ha
+
+Agriculture/Open Field converted to settlement:
+205.1 ha
+
+Water converted to settlement:
+19.4 ha
+
+Total converted to settlement:
+919.7 ha
+
+5. Fragmentation findings
+Forest-class metrics
+Number of forest patches:
+2016 = 663
+2024 = 2,468
+
+Forest patch density:
+2016 = 26.6
+2024 = 98.9
+
+Forest cohesion:
+2016 = 99.6
+2024 = 96.4
+
+Forest aggregation index:
+2016 = 91.9
+2024 = 75.2
+
+Forest division index:
+2016 = 0.7996
+2024 = 0.9968
+
+These results indicate that forest area became smaller, less aggregated, less connected and much more divided.
+
+Whole-landscape metrics
+Total number of patches:
+2016 = 7,724
+2024 = 12,917
+
+Landscape patch density:
+2016 = 309.4
+2024 = 517.5
+
+The landscape-level rise in patch
+
+=== LINE 274 len=11450 ===
+<timestamp>Thursday, Jul 16, 2026, 12:26 PM (UTC+6)</timestamp>
+<user_query>
+ভালো—Step 2.4E locked। এখন Step 2.4F — P006 full-text review শুরু হবে।
+
+P006 open access এবং official Springer PDF available, তাই এটি complete full-text review হবে, partial নয়। Articleটি Population and Environment, Volume 47, article 18; published 27 March 2025 এবং CC BY 4.0 licence-এর অধীনে।
+
+P006 — Verified metadata
+Paper ID:
+P006
+
+Authors:
+Juthi Rani Mitra
+Tanzia Tasneem Ahmed
+Kevin Czajkowski
+
+Year:
+2025
+
+Title:
+Landscape fragmentation and population distribution in refugee camps:
+evidence from the Rohingya refugee influx in Bangladesh
+
+Journal:
+Population and Environment
+
+Volume:
+47
+
+Article number:
+18
+
+Published:
+27 March 2025
+
+DOI:
+10.1007/s11111-025-00489-4
+
+Publication Type:
+Original Research Article
+
+Peer Reviewed:
+Yes
+
+Access:
+Open Access — CC BY 4.0
+
+Official Springer record metadata, publication date এবং access status confirm করে।
+
+1. PDF download এবং save
+
+Filename:
+
+2025_mitra_landscape_fragmentation_population_distribution.pdf
+
+Location:
+
+02_Literature_Review\
+Research_Papers\
+02_Fragmentation_Studies\
+2025_mitra_landscape_fragmentation_population_distribution.pdf
+
+Official Springer page থেকে Download PDF ব্যবহার করবে। Paperটি 29-page open-access article।
+
+2. Extraction notes তৈরি
+
+Location:
+
+02_Literature_Review\
+Paper_Extraction_Notes\
+P006_2025_mitra_extraction_notes.docx
+
+Headings:
+
+P006 — Full-Text Extraction
+
+1. Verified Citation
+2. Publication Status
+3. Research Objectives
+4. Study Area
+5. Camp Coverage
+6. Study Period and Image Dates
+7. Satellite Dataset
+8. Ancillary Data
+9. Image Bands and Resolution
+10. Training and Validation Samples
+11. Random Forest Model
+12. Classification Accuracy
+13. LULC Classes
+14. Change-Detection Method
+15. Fragmentation Software
+16. Fragmentation Metrics
+17. NDVI Analysis
+18. Camp-Specific Population Analysis
+19. Correlation Analysis
+20. Main Findings
+21. Forest-Loss Results
+22. Settlement-Expansion Results
+23. Fragmentation Results
+24. Camp-Level Results
+25. Restoration Signals
+26. Author Interpretation
+27. Policy Implications
+28. Author-Stated Limitations
+29. Limitations Identified by Us
+30. Relevance to Our Research
+31. Research Gap
+32. How This Paper Will Be Used
+33. Important Tables and Figures
+34. Numerical Inconsistencies
+3. Literature Matrix-এর P006 row update
+Study Area
+Approximately 2,500 ha covering 34 Rohingya refugee camps
+in Ukhia and Teknaf, Cox’s Bazar District.
+
+Camp clusters include Kutupalong–Balukhali, Nayapara and
+scattered camps including Camps 14, 15, 16, 21, 22 and 23.
+
+The study considered the 34 Cox’s Bazar camps and excluded Bhasan Char.
+
+Study Period
+Pre-influx image:
+30 November 2016
+
+Post-influx image:
+3 January 2024
+
+Comparison period:
+2016–2024
+Data Used
+Sentinel-2A imagery;
+Humanitarian Response camp-boundary shapefile;
+UNHCR 2024 camp-level population data;
+high-resolution Google Earth Engine reference imagery.
+
+The study used Sentinel-2A images dated 30 November 2016 and 3 January 2024 and processed the classification in Google Earth Engine.
+
+Image characteristics
+Bands:
+B2 — Blue
+B3 — Green
+B4 — Red
+B8 — Near Infrared
+
+Spatial resolution:
+10 m
+
+Projection:
+WGS 1984 UTM Zone 46N
+
+Season:
+Winter / low-cloud dry-season imagery
+LULC Classes
+1. Forest
+2. Water
+3. Agriculture/Open Field
+4. Settlement
+Training and validation
+Total reference samples:
+Approximately 2,000 per image
+
+Split:
+Approximately 80% training
+20% validation
+
+2016:
+Training = 1,575
+Validation = 425
+
+2024:
+Training = 1,607
+Validation = 393
+
+Class-specific sample counts are reported in Table 1.
+
+Random Forest model
+Classifier:
+Random Forest
+
+Number of trees:
+200
+
+Features per split:
+Square root of the total number of features
+
+Platform:
+Google Earth Engine
+
+The paper used 200 decision trees and the default square-root feature-selection rule.
+
+Accuracy
+2016 Overall Accuracy:
+97.6%
+
+2016 Kappa:
+0.97
+
+2024 Overall Accuracy:
+96.9%
+
+2024 Kappa:
+0.96
+
+For 2024, class-level user’s accuracy ranged from 92.5% to 100%, while producer’s accuracy ranged approximately from 95.8% to 99%.
+
+Change-detection method
+Post-classification categorical change detection using
+ArcGIS Pro Change Detection Wizard.
+
+The analysis identified conversions from forest, agriculture/
+open field and water into settlement between 2016 and 2024.
+Fragmentation method
+Software:
+FRAGSTATS 4.2
+
+Input:
+Classified TIFF images for 2016 and 2024
+
+Neighbour rule:
+Queen’s contiguity — 8-neighbour
+Fragmentation metrics
+Class-level metrics
+Class Area — CA
+Percentage of Landscape — PLAND
+Number of Patches — NP
+Patch Density — PD
+Patch Cohesion Index — COHESION
+Landscape Division Index — DIVISION
+Aggregation Index — AI
+Landscape-level metrics
+Number of Patches — NP
+Patch Density — PD
+
+The paper used seven class-level metrics and two landscape-level metrics.
+
+4. Main findings
+Forest and settlement change
+Forest:
+2016 = 1,688.8 ha
+2024 = 767.3 ha
+Change = −921.5 ha
+Percentage decline = 54.6%
+
+Settlement:
+2016 = 144.8 ha
+2024 = 1,011.5 ha
+Change = +866.7 ha
+Percentage increase = 598.5%
+
+Agriculture/Open Field:
+562.9 ha → 659.3 ha
+Change = +17.1%
+
+Water:
+99.6 ha → 58.0 ha
+Change = −41.8%
+
+These values are reported in the article abstract and class-metric table.
+
+Conversion to settlement
+Forest converted to settlement:
+695.2 ha
+
+Agriculture/Open Field converted to settlement:
+205.1 ha
+
+Water converted to settlement:
+19.4 ha
+
+Total converted to settlement:
+919.7 ha
+
+5. Fragmentation findings
+Forest-class metrics
+Number of forest patches:
+2016 = 663
+2024 = 2,468
+
+Forest patch density:
+2016 = 26.6
+2024 = 98.9
+
+Forest cohesion:
+2016 = 99.6
+2024 = 96.4
+
+Forest aggregation index:
+2016 = 91.9
+2024 = 75.2
+
+Forest division index:
+2016 = 0.7996
+2024 = 0.9968
+
+These results indicate that forest area became smaller, less aggregated, less connected and much more divided.
+
+Whole-landscape metrics
+Total number of patches:
+2016 = 7,724
+2024 = 12,917
+
+Landscape patch density:
+2016 = 309.4
+2024 = 517.5
+
+The landscape-level rise in patch
+
+=== LINE 278 len=15119 ===
+<timestamp>Thursday, Jul 16, 2026, 12:53 PM (UTC+6)</timestamp>
+<user_query>
+Step 2.4G — P007 SDID Methodological Review
+
+P007 environmental case-study নয়। এটি আমাদের causal analysis-এর মূল methodological foundation।
+
+P007 verified metadata
+Paper ID:
+P007
+
+Authors:
+Dmitry Arkhangelsky
+Susan Athey
+David A. Hirshberg
+Guido W. Imbens
+Stefan Wager
+
+Year:
+2021
+
+Title:
+Synthetic Difference-in-Differences
+
+Journal:
+American Economic Review
+
+Volume:
+111
+
+Issue:
+12
+
+Pages:
+4088–4118
+
+DOI:
+10.1257/aer.20190159
+
+Publication Type:
+Peer-reviewed methodological journal article
+
+Peer Reviewed:
+Yes
+
+Official AEA record অনুযায়ী articleটি American Economic Review, 111(12), pages 4088–4118-এ প্রকাশিত। Open revised manuscript NBER ও arXiv-এ পাওয়া যায়।
+
+1. PDF save করবে
+
+Open full-text হিসেবে NBER revised July 2021 version ব্যবহার করা যাবে। Journal metadata অবশ্য AEA version অনুযায়ী থাকবে।
+
+Filename:
+
+2021_arkhangelsky_synthetic_difference_in_differences.pdf
+
+Location:
+
+02_Literature_Review\
+Research_Papers\
+04_Causal_Inference_Methods\
+2021_arkhangelsky_synthetic_difference_in_differences.pdf
+
+04_Causal_Inference_Methods folder না থাকলে তৈরি করবে।
+
+2. Extraction notes তৈরি করবে
+
+Location:
+
+02_Literature_Review\
+Paper_Extraction_Notes\
+P007_2021_arkhangelsky_sdid_extraction_notes.docx
+Headings
+P007 — Full-Text Methodological Extraction
+
+1. Verified Citation
+2. Publication Status
+3. Methodological Objective
+4. Research Problem Addressed
+5. Difference-in-Differences Background
+6. Synthetic-Control Background
+7. SDID Concept
+8. Required Panel Structure
+9. Units, Periods and Treatment Matrix
+10. Block Treatment Assignment
+11. Unit Weights
+12. Time Weights
+13. Weighted Fixed-Effects Regression
+14. Regularization
+15. Covariate Adjustment
+16. Target Estimand
+17. Identification Logic
+18. Latent-Factor Outcome Model
+19. Consistency Conditions
+20. Asymptotic Normality
+21. Bootstrap Inference
+22. Jackknife Inference
+23. Placebo Inference
+24. Small-Treated-Unit Considerations
+25. Empirical Applications
+26. Simulation Evidence
+27. Advantages over Conventional DiD
+28. Advantages over Synthetic Control
+29. Conditions Where SDID May Perform Poorly
+30. Author-Stated Limitations
+31. Application Limitations for Our Research
+32. Required Diagnostics
+33. Relevance to the Rohingya Forest Study
+34. Proposed SDID Panel Design
+35. Robustness Strategy
+36. Research Gap Supported by P007
+37. Important Algorithms, Equations and Figures
+38. Software and Reproducibility Resources
+3. Literature Matrix-এর P007 row update
+Study area
+Methodological paper; not geographically specific.
+
+Primary empirical illustration:
+California’s Proposition 99 cigarette-tax intervention,
+using 39 US states observed from 1970 to 2000.
+
+The main worked example uses California as the treated unit, 38 untreated states, 19 pre-treatment periods and 12 post-treatment periods.
+
+Study period
+Methodological framework:
+General panel-data setting.
+
+Main application:
+1970–2000, with California treated from 1989 onward.
+Data used
+Balanced panel data containing:
+
+• N units
+• T time periods
+• Outcome Y_it
+• Binary treatment indicator W_it
+• Treated and untreated units
+• Pre-treatment and post-treatment periods
+
+The paper introduces SDID in a balanced-panel setting with repeated unit-level outcomes and binary treatment exposure.
+
+Method
+Synthetic Difference-in-Differences combines:
+
+1. Synthetic-control-style unit weighting
+2. Time-period weighting
+3. Difference-in-Differences double differencing
+4. Unit fixed effects
+5. Time fixed effects
+6. Weighted regression estimation
+
+SDID reweights control units to match treated units’ pre-treatment trajectories and reweights pre-treatment periods to resemble post-treatment periods. It then estimates the treatment effect through a weighted two-way fixed-effects regression.
+
+4. Core methodological extraction
+Unit weights
+Purpose:
+Construct a weighted combination of untreated units whose
+pre-treatment outcome trajectory closely resembles the average
+trajectory of the treated units.
+
+Interpretation:
+Control units that provide a better counterfactual receive
+greater weight; dissimilar controls receive little or zero weight.
+
+Unit weighting reduces reliance on an unadjusted parallel-trends assumption by emphasizing controls with similar pre-exposure outcomes.
+
+Time weights
+Purpose:
+Assign greater importance to pre-treatment periods that are
+most informative about the post-treatment period.
+
+Interpretation:
+Pre-treatment years that better predict post-treatment behavior
+receive higher weights.
+
+The time weights balance pre- and post-treatment outcomes among controls and can reduce both bias and variance when the selected periods are informative.
+
+Final estimator
+Step 1:
+Estimate the regularization parameter.
+
+Step 2:
+Estimate unit weights.
+
+Step 3:
+Estimate time weights.
+
+Step 4:
+Run the weighted Difference-in-Differences regression with
+unit and time fixed effects.
+
+These are the four steps in the paper’s main SDID algorithm.
+
+5. Why SDID is relevant to our research
+Conventional DiD limitation
+
+Dampha et al. (P002) compared predefined 0–5 km treatment pixels with 10–15 km control pixels. But those zones can differ in:
+
+initial forest cover;
+terrain;
+roads;
+protected-area status;
+human settlement;
+pre-2017 forest-loss trends.
+
+Conventional DiD can therefore be sensitive to whether untreated and treated units genuinely follow comparable pre-treatment trajectories.
+
+SDID improvement
+Instead of treating all control units equally,
+SDID will assign larger weights to control grid cells
+that best reproduce the pre-2017 forest trajectory
+of the treated grid cells.
+
+This directly supports our proposed use of a long annual forest panel. SDID was designed to combine synthetic-control matching with DiD’s unit-shift robustness and large-panel inference.
+
+6. Proposed application to our study
+
+এটি এখন methodological plan হিসেবে notes-এ থাকবে; final specification Step 3-এ lock হবে।
+
+Panel structure
+Unit:
+Spatial grid cell or comparable landscape unit
+
+Time
+
+=== LINE 285 len=15132 ===
+<timestamp>Thursday, Jul 16, 2026, 12:55 PM (UTC+6)</timestamp>
+<user_query>
+complete it 
+Step 2.4G — P007 SDID Methodological Review
+
+P007 environmental case-study নয়। এটি আমাদের causal analysis-এর মূল methodological foundation।
+
+P007 verified metadata
+Paper ID:
+P007
+
+Authors:
+Dmitry Arkhangelsky
+Susan Athey
+David A. Hirshberg
+Guido W. Imbens
+Stefan Wager
+
+Year:
+2021
+
+Title:
+Synthetic Difference-in-Differences
+
+Journal:
+American Economic Review
+
+Volume:
+111
+
+Issue:
+12
+
+Pages:
+4088–4118
+
+DOI:
+10.1257/aer.20190159
+
+Publication Type:
+Peer-reviewed methodological journal article
+
+Peer Reviewed:
+Yes
+
+Official AEA record অনুযায়ী articleটি American Economic Review, 111(12), pages 4088–4118-এ প্রকাশিত। Open revised manuscript NBER ও arXiv-এ পাওয়া যায়।
+
+1. PDF save করবে
+
+Open full-text হিসেবে NBER revised July 2021 version ব্যবহার করা যাবে। Journal metadata অবশ্য AEA version অনুযায়ী থাকবে।
+
+Filename:
+
+2021_arkhangelsky_synthetic_difference_in_differences.pdf
+
+Location:
+
+02_Literature_Review\
+Research_Papers\
+04_Causal_Inference_Methods\
+2021_arkhangelsky_synthetic_difference_in_differences.pdf
+
+04_Causal_Inference_Methods folder না থাকলে তৈরি করবে।
+
+2. Extraction notes তৈরি করবে
+
+Location:
+
+02_Literature_Review\
+Paper_Extraction_Notes\
+P007_2021_arkhangelsky_sdid_extraction_notes.docx
+Headings
+P007 — Full-Text Methodological Extraction
+
+1. Verified Citation
+2. Publication Status
+3. Methodological Objective
+4. Research Problem Addressed
+5. Difference-in-Differences Background
+6. Synthetic-Control Background
+7. SDID Concept
+8. Required Panel Structure
+9. Units, Periods and Treatment Matrix
+10. Block Treatment Assignment
+11. Unit Weights
+12. Time Weights
+13. Weighted Fixed-Effects Regression
+14. Regularization
+15. Covariate Adjustment
+16. Target Estimand
+17. Identification Logic
+18. Latent-Factor Outcome Model
+19. Consistency Conditions
+20. Asymptotic Normality
+21. Bootstrap Inference
+22. Jackknife Inference
+23. Placebo Inference
+24. Small-Treated-Unit Considerations
+25. Empirical Applications
+26. Simulation Evidence
+27. Advantages over Conventional DiD
+28. Advantages over Synthetic Control
+29. Conditions Where SDID May Perform Poorly
+30. Author-Stated Limitations
+31. Application Limitations for Our Research
+32. Required Diagnostics
+33. Relevance to the Rohingya Forest Study
+34. Proposed SDID Panel Design
+35. Robustness Strategy
+36. Research Gap Supported by P007
+37. Important Algorithms, Equations and Figures
+38. Software and Reproducibility Resources
+3. Literature Matrix-এর P007 row update
+Study area
+Methodological paper; not geographically specific.
+
+Primary empirical illustration:
+California’s Proposition 99 cigarette-tax intervention,
+using 39 US states observed from 1970 to 2000.
+
+The main worked example uses California as the treated unit, 38 untreated states, 19 pre-treatment periods and 12 post-treatment periods.
+
+Study period
+Methodological framework:
+General panel-data setting.
+
+Main application:
+1970–2000, with California treated from 1989 onward.
+Data used
+Balanced panel data containing:
+
+• N units
+• T time periods
+• Outcome Y_it
+• Binary treatment indicator W_it
+• Treated and untreated units
+• Pre-treatment and post-treatment periods
+
+The paper introduces SDID in a balanced-panel setting with repeated unit-level outcomes and binary treatment exposure.
+
+Method
+Synthetic Difference-in-Differences combines:
+
+1. Synthetic-control-style unit weighting
+2. Time-period weighting
+3. Difference-in-Differences double differencing
+4. Unit fixed effects
+5. Time fixed effects
+6. Weighted regression estimation
+
+SDID reweights control units to match treated units’ pre-treatment trajectories and reweights pre-treatment periods to resemble post-treatment periods. It then estimates the treatment effect through a weighted two-way fixed-effects regression.
+
+4. Core methodological extraction
+Unit weights
+Purpose:
+Construct a weighted combination of untreated units whose
+pre-treatment outcome trajectory closely resembles the average
+trajectory of the treated units.
+
+Interpretation:
+Control units that provide a better counterfactual receive
+greater weight; dissimilar controls receive little or zero weight.
+
+Unit weighting reduces reliance on an unadjusted parallel-trends assumption by emphasizing controls with similar pre-exposure outcomes.
+
+Time weights
+Purpose:
+Assign greater importance to pre-treatment periods that are
+most informative about the post-treatment period.
+
+Interpretation:
+Pre-treatment years that better predict post-treatment behavior
+receive higher weights.
+
+The time weights balance pre- and post-treatment outcomes among controls and can reduce both bias and variance when the selected periods are informative.
+
+Final estimator
+Step 1:
+Estimate the regularization parameter.
+
+Step 2:
+Estimate unit weights.
+
+Step 3:
+Estimate time weights.
+
+Step 4:
+Run the weighted Difference-in-Differences regression with
+unit and time fixed effects.
+
+These are the four steps in the paper’s main SDID algorithm.
+
+5. Why SDID is relevant to our research
+Conventional DiD limitation
+
+Dampha et al. (P002) compared predefined 0–5 km treatment pixels with 10–15 km control pixels. But those zones can differ in:
+
+initial forest cover;
+terrain;
+roads;
+protected-area status;
+human settlement;
+pre-2017 forest-loss trends.
+
+Conventional DiD can therefore be sensitive to whether untreated and treated units genuinely follow comparable pre-treatment trajectories.
+
+SDID improvement
+Instead of treating all control units equally,
+SDID will assign larger weights to control grid cells
+that best reproduce the pre-2017 forest trajectory
+of the treated grid cells.
+
+This directly supports our proposed use of a long annual forest panel. SDID was designed to combine synthetic-control matching with DiD’s unit-shift robustness and large-panel inference.
+
+6. Proposed application to our study
+
+এটি এখন methodological plan হিসেবে notes-এ থাকবে; final specification Step 3-এ lock হবে।
+
+Panel structure
+Unit:
+Spatial grid cell or comparable landsca
+
+=== LINE 294 len=15845 ===
+<timestamp>Thursday, Jul 16, 2026, 1:02 PM (UTC+6)</timestamp>
+<user_query>
+Step 2.4H — P008 Salemi (2025)
+
+P008-এর latest full text openly available। Author-এর বর্তমান draft 11 November 2025 তারিখের, 65 pages including technical appendix। Author এটিকে Under review working paper হিসেবে তালিকাভুক্ত করেছেন; তাই এটি peer-reviewed journal article নয়।
+
+1. PDF save করবে
+
+Official author-hosted PDF খুলে download করো।
+
+Filename:
+
+2025_salemi_rohingya_camps_land_cover_change.pdf
+
+Location:
+
+02_Literature_Review\
+Research_Papers\
+04_Causal_Inference_Methods\
+2025_salemi_rohingya_camps_land_cover_change.pdf
+2. Verified metadata
+Field	Value
+Paper ID	P008
+Author	Colette Salemi
+Year	2025
+Title	Rohingya Refugee Camps and Land Cover Change in Bangladesh
+Version date	11 November 2025
+Publication status	Working paper — under review
+Publication type	Working Paper
+Peer reviewed	No — under review
+DOI	None verified
+Access	Open author-hosted full text
+
+The draft states that it extends the earlier collaboration that produced World Bank Working Paper 9948, meaning P008 is related to P002 but is a newer and substantially expanded individual study.
+
+3. Extraction-notes document
+
+Create:
+
+02_Literature_Review\
+Paper_Extraction_Notes\
+P008_2025_salemi_extraction_notes.docx
+
+Use these headings:
+
+P008 — Full-Text Extraction
+
+1. Verified Citation
+2. Publication and Review Status
+3. Version History
+4. Research Objective
+5. Theoretical Channels
+6. Study Area
+7. Camp and Administrative Coverage
+8. Study Period
+9. Dynamic World Dataset
+10. Land-Cover Outcomes
+11. Annual Composite Construction
+12. Spatial Resolution and Analysis Units
+13. Camp-Boundary Data
+14. Protected-Area Data
+15. Nighttime-Lights Data
+16. Cox’s Bazar Panel Survey Evidence
+17. Treatment Definition
+18. Control Definition
+19. Spillover-Exclusion Zone
+20. Matching Unit
+21. Propensity-Score Model
+22. Matching Variables
+23. Matching Algorithm
+24. Covariate Balance
+25. Difference-in-Differences Event Study
+26. Fixed Effects and Standard Errors
+27. Identification Assumptions
+28. Main Forest-Cover Results
+29. Settlement-Cover Results
+30. Vegetation and Agriculture Results
+31. Protected-Area Heterogeneity
+32. Kutupalong Heterogeneity
+33. Robustness Checks
+34. Nighttime-Lights Analysis
+35. LPG and Fencing Interpretation
+36. Direct and Indirect Mechanisms
+37. Author-Stated Limitations
+38. Limitations Identified by Us
+39. Relevance to Our Research
+40. Research Gap
+41. Comparison with P002
+42. Comparison with Proposed SDID Design
+43. Important Tables and Figures
+44. Numerical or Terminological Issues
+4. Literature Matrix — P008 row
+Study area
+Cox’s Bazar District and adjacent Naikhongchhari subdistrict,
+Bangladesh. Primary analysis covers areas around Rohingya camp
+boundaries; Chittagong District is used as an alternative
+comparison area.
+
+The primary dataset includes Cox’s Bazar and Naikhongchhari, while Chittagong is introduced as a robustness donor/comparison area.
+
+Study period
+Land-cover panel:
+2016–2023
+
+Pre-treatment observations:
+February 2016 and February 2017
+
+Treatment/influx:
+August 2017
+
+Post-treatment observations:
+February 2018–February 2023
+
+Nighttime lights:
+2013–2021
+
+February 2017 is treated as the final pre-treatment observation because it predates the August 2017 mass influx.
+
+Data used
+Dynamic World 10 m probabilistic LULC data;
+UNHCR/IOM ISCG camp-boundary polygons;
+Protected Planet WDPA polygons;
+VIIRS annual nighttime-light composites;
+Cox’s Bazar Panel Survey 2019 contextual evidence;
+administrative-boundary data.
+
+Dynamic World provides probabilities for water, trees, shrubs, grasses, built-up, flooded vegetation, crops, bare ground and snow/ice. The study uses probability layers rather than hard classifications.
+
+Data preparation
+All February Dynamic World layers were averaged separately
+for each year from 2016 to 2023.
+
+Original resolution:
+10 m
+
+Analysis resolution:
+Upscaled to 30 m by averaging probabilities
+
+Initial analytical sample:
+2,899,227 30 m grid cells
+
+The February dry-season restriction was used to reduce cloud interference, while upscaling reduced computational load.
+
+Main outcome classes
+Forest
+Settlement
+Vegetation — shrubs and grasses
+Agriculture
+
+Bare ground and flooded vegetation were excluded from the main analysis because they were uncommon and showed limited temporal variation.
+
+5. Treatment-control design
+Treatment
+30 m pixels located 0–5 km from the nearest camp boundary.
+Control pool
+Areas located more than 20 km from the nearest camp boundary.
+Excluded spillover zone
+Pixels located more than 5 km and up to 20 km from camps
+were omitted to reduce control-group contamination.
+
+The author selected 0–5 km to capture both low-cost direct extraction and local camp-related agglomeration effects.
+
+6. Propensity-score matching
+Matching resolution:
+1 km contiguous spatial grid cells
+
+Propensity-score model:
+Probit regression
+
+Matching:
+Nearest neighbour, K = 1
+
+Caliper:
+0.1
+
+Common support:
+Observations outside common support excluded
+
+Matching variables:
+
+2016 forest probability
+2017 forest probability
+2016 settlement probability
+2017 settlement probability
+2016 vegetation probability
+2017 vegetation probability
+2016 agriculture probability
+2017 agriculture probability
+Share of the 1 km grid inside a protected area
+
+Matching occurs at 1 km to preserve contiguous landscape clusters, while causal estimation returns to the underlying 30 m observations.
+
+Main matched sample
+Control 30 m cells:
+347,561
+
+Treatment 30 m cells:
+305,213
+
+Post-matching standardized differences were below 0.1 for the main covariates, although several mean differences remained statistically significant because of the very large sample.
+
+7. Event-study model
+Method:
+Matched Difference-in-Differences event study
+
+Reference year:
+2017
+
+Fixed effects:
+30 m grid-cell fixed effects
+Year fixed effects
+
+Standard errors:
+Clustered using intersections with a 1 km grid
+
+The event-study coefficients estimate yearly treatment-control differences relative to Febr
+
+=== LINE 303 len=177 ===
+<user_query>Briefly inform the user about the task result and perform any follow-up actions (if needed). If there's no follow-ups needed, don't explicitly say that.</user_query>
+
+=== LINE 305 len=11721 ===
+<timestamp>Thursday, Jul 16, 2026, 1:18 PM (UTC+6)</timestamp>
+<user_query>
+Step 2.4I — P009 Langer et al. (2015)
+
+Step 2.4H locked। এখন P009-এর open-access full-text review হবে।
+
+P009 একটি মাত্র ৪ পৃষ্ঠার short paper, তবে আমাদের জন্য গুরুত্বপূর্ণ কারণ এটি refugee camp প্রতিষ্ঠার আগের সময়, camp operation, dismantling এবং post-camp reforestation—পুরো lifecycle-কে Landsat time series দিয়ে অনুসরণ করেছে।
+
+1. Verified metadata
+Paper ID:
+P009
+
+Authors:
+Sebastian Langer
+Dirk Tiede
+Fritjof Lüthje
+
+Year:
+2015
+
+Title:
+Long-term Monitoring of the Environmental Impact of a Refugee
+Camp Based on Landsat Time Series: The Example of Deforestation
+and Reforestation During the whole Lifespan of the Camp Lukole,
+Tanzania
+
+Source:
+GI_Forum — Journal for Geographic Information Science
+
+Pages:
+434–437
+
+Publication date:
+29 June 2015
+
+DOI:
+10.1553/giscience2015s434
+
+Publication type:
+Short Paper / Journal Article
+
+Peer reviewed:
+Yes
+
+Access:
+Open Access — Creative Commons Attribution
+
+Publisher page paperটিকে GI_Forum 2015, Volume 3 হিসেবে catalog করেছে, কিন্তু PDF issue header এবং Salzburg institutional record GI_Forum 1-2015/Volume 1 নির্দেশ করে। তাই matrix-এ volume নিয়ে নিশ্চিত সংখ্যা না দিয়ে inconsistency note রাখা নিরাপদ।
+
+2. PDF download এবং save
+
+Official open-access PDF download করবে।
+
+Filename:
+
+2015_langer_lukole_refugee_camp_landsat_monitoring.pdf
+
+Location:
+
+02_Literature_Review\
+Research_Papers\
+05_Comparative_Refugee_Environment_Studies\
+2015_langer_lukole_refugee_camp_landsat_monitoring.pdf
+
+05_Comparative_Refugee_Environment_Studies folder না থাকলে তৈরি করবে।
+
+3. Extraction notes তৈরি
+
+Location:
+
+02_Literature_Review\
+Paper_Extraction_Notes\
+P009_2015_langer_extraction_notes.docx
+
+Headings:
+
+P009 — Full-Text Extraction
+
+1. Verified Citation
+2. Publication Status
+3. Paper Scope
+4. Research Objective
+5. Study Area
+6. Refugee-Camp Context
+7. Camp Lifecycle
+8. Spatial Analysis Extent
+9. Study Period
+10. Landsat Scene Archive
+11. Landsat Sensors
+12. Seasonal and Phenological Considerations
+13. Image Preprocessing
+14. SIAM Pre-classification
+15. Greenness Index
+16. Object-Based Change Detection
+17. Selected Time Steps
+18. Deforestation Findings
+19. Reforestation Findings
+20. Restoration Context
+21. Methodological Advantages
+22. Author-Stated Challenges
+23. Limitations Identified by Us
+24. Relevance to Our Research
+25. Research Gap
+26. Planned Use in Literature Review
+27. Important Figures
+28. Metadata and Volume Inconsistency
+4. Literature Matrix — P009 row update
+Study area
+Lukole refugee camp and surrounding landscape, Tanzania.
+
+The analytical extent used a 16 km buffer around the maximum
+camp footprint to include both directly affected and comparatively
+less-affected surrounding landscapes.
+
+The buffer was informed by earlier evidence that visible vegetation damage was concentrated within about 2 km, while wood collection could extend 10 km or more from the camp.
+
+Camp lifecycle
+Camp established:
+1994
+
+Maximum extent:
+Approximately 13 km² in 2000
+
+Maximum reported population:
+More than 130,000 people
+
+Camp dismantled:
+2008
+
+Final observation:
+2015 — approximately seven years after dismantling
+
+The camp was created for refugees displaced from Rwanda and Burundi, reached its maximum extent around 2000, and was dismantled in 2008.
+
+Study period
+Overall satellite archive:
+December 1990–January 2015
+
+Camp-impact period:
+1994–2008
+
+Post-dismantling monitoring:
+2008–2015
+
+Change-analysis time steps:
+Six approximately five-year intervals between 1990 and 2015
+
+The researchers identified more than 40 substantially cloud-free Landsat scenes, processed all of them initially, and selected six time steps for the main change analysis because of phenological differences.
+
+Data used
+More than 40 Landsat scenes from the USGS EarthExplorer archive.
+
+Sensors:
+Landsat 5
+Landsat 7
+Landsat 8
+
+Ancillary information:
+Published camp-boundary analysis, refugee activity-radius evidence,
+camp establishment/dismantling records and restoration information.
+Preprocessing
+Conversion to top-of-atmosphere reflectance.
+
+Automated cloud and cloud-shadow support through SIAM outputs.
+
+Seasonal scene selection and comparison to reduce phenological
+differences.
+Method
+Fully automated multi-sensor pre-classification using the
+Spectral Knowledge-Based Satellite Image Automatic Mapper — SIAM.
+
+Primary SIAM outputs:
+1. Pre-classification containing 33 spectral classes
+2. Automatically generated greenness index
+
+Change method:
+Object-Based Change Detection applied to greenness-index time series
+to identify vegetation decrease and increase.
+
+SIAM was selected because it can produce comparable, parameter-free preliminary classifications across different optical sensors without manually defining training samples or thresholds.
+
+5. Main findings
+Deforestation
+Deforestation occurred primarily between the camp’s establishment
+in 1994 and its dismantling in 2008.
+
+Vegetation degradation was concentrated around the camp, while some
+more distant changes were associated with agriculture and seasonal
+or rainfall-related differences.
+Reforestation
+Detectable reforestation tendencies began around 2000,
+when the camp reached its maximum extent.
+
+Relatively few changes occurred between 2010 and 2015,
+suggesting that most observable reforestation had already
+taken place before 2010.
+
+The authors explicitly describe these as preliminary results rather than a complete final quantitative assessment.
+
+Restoration context
+UNHCR reportedly planted approximately 14 million tree seedlings
+across northern Tanzania beginning in 1995.
+
+The study aimed partly to evaluate and monitor the resulting
+reforestation efforts.
+
+6. Classification fields
+Forest Loss:
+Yes — long-term vegetation decline associated with the camp lifecycle
+
+Fragmentation:
+No — no formal fragmentation metrics
+
+Carbon:
+No
+
+ML/XAI:
+No conventional trained ML model
+Rule-based automated spectral pre-classification: Yes
+XAI: No
+
+Causal Inference:
+No — descriptive longitudinal remote-sensing analysis
+
+R
+
+=== LINE 314 len=12188 ===
+<timestamp>Thursday, Jul 16, 2026, 1:52 PM (UTC+6)</timestamp>
+<user_query>
+Step 2.4J — P010 Hasan et al.
+
+Step 2.4I locked। এখন P010-এর full-text review হবে। এই paper-এর author-uploaded full text পাওয়া যাচ্ছে, তাই এটি partial নয়—complete review করা যাবে।
+
+1. একটি গুরুত্বপূর্ণ metadata correction
+
+তোমার matrix-এ P010 সম্ভবত Hasan, 2020 হিসেবে আছে। এখানে distinction রাখবে:
+
+Online first / accepted version:
+2020
+
+Final issue year:
+2021
+
+Final journal citation:
+
+Land Degradation & Development
+Volume 32
+Issue 13
+Pages 3666–3683
+Year: 2021
+
+Paperটি 2020 সালে received, revised, accepted ও online published হলেও final issue citation year 2021। তাই master matrix-এর Year 2021 করা বেশি সঠিক। তবে notes-এ Online first: 2020 লিখবে।
+
+2. Verified metadata
+Paper ID:
+P010
+
+Authors:
+Mohammad Emran Hasan
+Li Zhang
+Ashraf Dewan
+Huadong Guo
+Riffat Mahmood
+
+Title:
+Spatiotemporal pattern of forest degradation and loss of
+ecosystem function associated with Rohingya influx:
+A geospatial approach
+
+Journal:
+Land Degradation & Development
+
+Volume:
+32
+
+Issue:
+13
+
+Pages:
+3666–3683
+
+Final issue year:
+2021
+
+Online publication:
+6 November 2020
+
+DOI:
+10.1002/ldr.3821
+
+Publication type:
+Research Article / Special Issue Article
+
+Peer Reviewed:
+Yes
+
+Official Wiley metadata ও full manuscript author list, DOI এবং publication history confirm করে।
+
+3. PDF download ও save
+
+ResearchGate-এ author-uploaded full text available।
+
+Filename:
+
+2021_hasan_forest_degradation_ecosystem_function.pdf
+
+Location:
+
+02_Literature_Review\
+Research_Papers\
+01_Direct_Rohingya_Forest_Studies\
+2021_hasan_forest_degradation_ecosystem_function.pdf
+
+Preprint filename বা 2020 year দিয়ে save না করাই ভালো, কারণ final citation year 2021।
+
+4. Extraction notes তৈরি
+
+Location:
+
+02_Literature_Review\
+Paper_Extraction_Notes\
+P010_2021_hasan_extraction_notes.docx
+
+Headings:
+
+P010 — Full-Text Extraction
+
+1. Verified Citation
+2. Publication and Version Status
+3. Research Objectives
+4. Research Questions
+5. Study Area
+6. Forest Administrative Units
+7. Study Period
+8. Satellite Image Dates
+9. Sentinel-2A Data
+10. Ancillary and Collateral Data
+11. Image Preprocessing
+12. LULC Classes
+13. Training Samples
+14. Classification Method
+15. Accuracy Assessment
+16. Change-Detection Method
+17. Forest-Degradation Categories
+18. Drivers and Multi-Criteria Factors
+19. CA–Markov Model
+20. Model Calibration
+21. Model Validation
+22. 2023 Prediction
+23. 2027 Prediction
+24. Above-Ground Biomass Method
+25. Carbon-Stock Method
+26. Ecosystem-Function Interpretation
+27. Main Forest-Loss Findings
+28. Camp and Degraded-Forest Conversion
+29. Biomass-Loss Findings
+30. Carbon-Loss Findings
+31. Protected and Sensitive Forest Impacts
+32. Wildlife and Ecosystem Implications
+33. Authors’ Interpretation
+34. Policy Implications
+35. Author-Stated Limitations
+36. Limitations Identified by Us
+37. Numerical and Terminological Issues
+38. Relevance to Our Research
+39. Research Gap
+40. Comparison with P005
+41. Comparison with P004
+42. Planned Use in Literature Review
+43. Important Tables and Figures
+5. Literature Matrix — P010 row
+Study area
+Cox’s Bazar–Teknaf Peninsula, focusing on 23 forest beats
+within the Cox’s Bazar South Forest Division and an additional
+portion of Naikhongchhari beat in Bandarban Forest Division.
+
+The study used Bangladesh Forest Department administrative units because most refugee camps were established within the South Forest Division.
+
+Research objective
+To quantify forest degradation associated with the Rohingya influx,
+predict future forest-cover change under a business-as-usual
+scenario, and estimate associated loss of ecosystem function through
+above-ground biomass and carbon-stock decline.
+
+The paper explicitly addresses both observed degradation and future ecosystem-function loss.
+
+Study period
+Observed LULC comparison:
+2017–2019
+
+Prediction years:
+2023 and 2027
+
+Exact Sentinel-2A image dates:
+Record directly from the Methods section/table in the PDF.
+
+Do not guess exact dates from the abstract.
+
+Data used
+Multi-temporal Sentinel-2A imagery;
+Bangladesh Forest Department forest-beat boundaries;
+refugee-camp and catchment information;
+population, physiography, accessibility and other dynamic
+driver variables;
+forest biomass and carbon reference information.
+
+The paper confirms Sentinel-2A and collateral/dynamic variables for modelling.
+
+Method
+Supervised multi-date LULC classification;
+post-classification forest-change analysis;
+multi-criteria evaluation of degradation drivers;
+Cellular Automata–Markov modelling for 2023 and 2027;
+above-ground biomass and carbon-stock estimation to represent
+loss of ecosystem function.
+Forest classes
+
+The exact class names must be copied from the PDF legend/table. At minimum the paper later refers to:
+
+Shrub forest
+Mixed forest
+Plantation forest
+Canopy forest
+Rohingya-influenced degraded forest
+Refugee camp
+
+Do not finalize the complete class list until checked in the full text.
+
+6. Main findings
+Observed forest conversion
+Between 2017 and 2019:
+
+Approximately 3,130 ha of different forest-cover categories
+were transformed into refugee camps or Rohingya-influenced
+degraded forest.
+
+This is the paper’s primary observed degradation estimate.
+
+Predicted forest loss
+2019–2023:
+Approximately 3,080 ha additional forest degradation predicted
+
+2019–2027:
+Approximately 5,115–5,120 ha additional forest degradation predicted
+
+The abstract reports approximately 5,115 ha, while the discussion text rounds to 5,120 ha; keep this as a minor rounding inconsistency.
+
+Model assumption
+Prediction assumes that the displaced Rohingya population
+continues residing in the environmentally sensitive region
+and that the prevailing deforestation dynamics persist.
+
+This is a scenario projection, not a causal forecast.
+
+7. Biomass and carbon
+
+P010 is important because it does not only map forest loss; it also estimates above-ground biomass and carbon-stock loss.
+
+Matrix fields:
+
+Forest Loss:
+Yes
+
+Fragmentation:
+Discussed as ecological consequence, but no formal landscape
+fra
+
+=== LINE 360 len=16533 ===
+<mcp_meta_tools>
+You have access to MCP (Model Context Protocol) tools through `GetMcpTools` and `CallMcpTool`.
+
+## MCP Tool Discovery and Invocation
+
+Use `GetMcpTools` to discover tool schemas, then `CallMcpTool` to invoke them. Aim to minimize round-trips: ideally one `GetMcpTools` call followed by one `CallMcpTool` call.
+
+If the user mentions, references, or links to a product or service that corresponds to an available MCP server, and the request likely depends on information from that service, proactively inspect that MCP server before answering. Do not wait for the user to explicitly ask you to use MCP. If you are unsure which server matches, use `GetMcpTools` with a pattern based on the service name.
+
+`GetMcpTools` supports four modes:
+
+1. `{"server":"<id>"}`: returns full input schemas and full descriptions for every tool on that server. Preferred when you know which server to use.
+2. `{"server":"<id>","toolName":"<name>"}`: returns the full schema and full description for one tool.
+3. `{"pattern":"<regex>"}`: searches tool and server names across all servers using RE2 syntax (no backreferences, lookahead, or lookbehind). Use when you're unsure which server has the tool you need.
+4. No arguments: returns a catalog of all servers with tool names and short descriptions. Only use this if you have no idea which server or tool to look for — in most cases, prefer fetching by server or pattern instead.
+
+Pattern-search and catalog results shorten long descriptions, marked by a trailing "... [truncated]"; server and single-tool lookups always return the complete description.
+
+MANDATORY - Always call `GetMcpTools` to discover a tool's schema before invoking it with `CallMcpTool`. If you already know the server, go directly to it rather than listing the full catalog first.
+
+If the available MCP tools do not fully support what the user asked you to do, complete the work you can with the current tool set. In your work summary, include what you were unable to do with MCP and why. Do not use browser automation to work around missing or unavailable MCP tools unless the user explicitly asks you to use the browser.
+
+Available MCP servers:
+
+<mcp_meta_tool_servers>
+<mcp_meta_tool_server name="user-Playwright (Browser Automation)" tools="browser_close, browser_resize, browser_console_messages, browser_handle_dialog, browser_evaluate, browser_file_upload, browser_drop, browser_find, browser_fill_form, browser_press_key, browser_type, browser_navigate, browser_navigate_back, browser_network_requests, browser_network_request, browser_run_code_unsafe, browser_take_screenshot, browser_snapshot, browser_click, browser_drag, browser_hover, browser_select_option, browser_tabs, browser_wait_for" />
+<mcp_meta_tool_server name="user-Lighthouse (Performance Audit)" tools="run_audit, get_performance_score" />
+<mcp_meta_tool_server name="user-Fetch (Web Content Extractor)" tools="fetch_html, fetch_markdown, fetch_txt, fetch_json" />
+<mcp_meta_tool_server name="user-Filesystem (Repo Access)" tools="read_file, read_text_file, read_media_file, read_multiple_files, write_file, edit_file, create_directory, list_directory, list_directory_with_sizes, directory_tree, move_file, search_files, get_file_info, list_allowed_directories" />
+<mcp_meta_tool_server name="user-Semgrep (SAST Security Scan)" />
+<mcp_meta_tool_server name="user-Commands (Run CLI Tools)" tools="run_process" />
+<mcp_meta_tool_server name="user-figma" tools="get_screenshot, get_design_context, get_motion_context, get_metadata, get_variable_defs, get_figjam, generate_figma_design, generate_diagram, get_code_connect_map, whoami, add_code_connect_map, get_code_connect_suggestions, send_code_connect_mappings, export_video, get_context_for_code_connect, list_file_components_for_code_connect, use_figma, get_libraries, search_design_system, create_new_file, upload_assets, download_assets, list_shader_effects, get_shader_effect, list_shader_fills, get_shader_fill" serverUseInstructions="The official Figma MCP server. Use this server whenever the user wants to create, generate, edit, implement, or sync any design, UI, screen, component, mockup, or visual — in Figma, FigJam, Figma Make, or Figma Slides — and whenever the user mentions Figma or provides a figma.com URL.
+
+This server bridges code and design in both directions, and supports designing from scratch using existing design systems and codebases.
+
+CAPABILITIES:
+- Read designs FROM Figma into code (get_design_context, get_screenshot, get_metadata, get_figjam)
+- Write designs INTO Figma from code, intent, or existing components (use_figma, generate_figma_design, create_new_file, upload_assets)
+- Bridge code and design via Code Connect (get_code_connect_map, add_code_connect_map)
+- Create diagrams and FigJam content (generate_diagram, get_figjam)
+
+WHEN TO USE THESE TOOLS:
+- The user wants to create, mock up, or generate any UI, screen, component, or design — even if Figma isn't named
+- The user wants to implement a design as code (design-to-code)
+- The user wants to push a page, view, or component into Figma (code-to-design)
+- The user wants to update, sync, or edit an existing Figma file
+- The user shares a figma.com URL
+- The user wants to build or extend a design system, design tokens, or component library
+- The user wants to create a diagram in FigJam
+
+SKILLS (Prefer the skills shipped with the Figma plugin on the agent being used. If no Figma plugin is installed, use the skills served by the Figma MCP resource):
+- /figma-use — MANDATORY before calling use_figma; fallback: skill://figma/figma-use/SKILL.md
+- /figma-generate-design — for translating an app page or layout into Figma; fallback: skill://figma/figma-generate-design/SKILL.md
+- /figma-generate-library — for building a design system in Figma from code; fallback: skill://figma/figma-generate-library/SKILL.md
+- /figma-code-connect — for mapping Figma components to codebase components; fallback: skill://figma/figma-code-connect/SKILL.md
+- /figma-use-
+
+=== LINE 361 len=12188 ===
+<timestamp>Thursday, Jul 16, 2026, 1:52 PM (UTC+6)</timestamp>
+<user_query>
+Step 2.4J — P010 Hasan et al.
+
+Step 2.4I locked। এখন P010-এর full-text review হবে। এই paper-এর author-uploaded full text পাওয়া যাচ্ছে, তাই এটি partial নয়—complete review করা যাবে।
+
+1. একটি গুরুত্বপূর্ণ metadata correction
+
+তোমার matrix-এ P010 সম্ভবত Hasan, 2020 হিসেবে আছে। এখানে distinction রাখবে:
+
+Online first / accepted version:
+2020
+
+Final issue year:
+2021
+
+Final journal citation:
+
+Land Degradation & Development
+Volume 32
+Issue 13
+Pages 3666–3683
+Year: 2021
+
+Paperটি 2020 সালে received, revised, accepted ও online published হলেও final issue citation year 2021। তাই master matrix-এর Year 2021 করা বেশি সঠিক। তবে notes-এ Online first: 2020 লিখবে।
+
+2. Verified metadata
+Paper ID:
+P010
+
+Authors:
+Mohammad Emran Hasan
+Li Zhang
+Ashraf Dewan
+Huadong Guo
+Riffat Mahmood
+
+Title:
+Spatiotemporal pattern of forest degradation and loss of
+ecosystem function associated with Rohingya influx:
+A geospatial approach
+
+Journal:
+Land Degradation & Development
+
+Volume:
+32
+
+Issue:
+13
+
+Pages:
+3666–3683
+
+Final issue year:
+2021
+
+Online publication:
+6 November 2020
+
+DOI:
+10.1002/ldr.3821
+
+Publication type:
+Research Article / Special Issue Article
+
+Peer Reviewed:
+Yes
+
+Official Wiley metadata ও full manuscript author list, DOI এবং publication history confirm করে।
+
+3. PDF download ও save
+
+ResearchGate-এ author-uploaded full text available।
+
+Filename:
+
+2021_hasan_forest_degradation_ecosystem_function.pdf
+
+Location:
+
+02_Literature_Review\
+Research_Papers\
+01_Direct_Rohingya_Forest_Studies\
+2021_hasan_forest_degradation_ecosystem_function.pdf
+
+Preprint filename বা 2020 year দিয়ে save না করাই ভালো, কারণ final citation year 2021।
+
+4. Extraction notes তৈরি
+
+Location:
+
+02_Literature_Review\
+Paper_Extraction_Notes\
+P010_2021_hasan_extraction_notes.docx
+
+Headings:
+
+P010 — Full-Text Extraction
+
+1. Verified Citation
+2. Publication and Version Status
+3. Research Objectives
+4. Research Questions
+5. Study Area
+6. Forest Administrative Units
+7. Study Period
+8. Satellite Image Dates
+9. Sentinel-2A Data
+10. Ancillary and Collateral Data
+11. Image Preprocessing
+12. LULC Classes
+13. Training Samples
+14. Classification Method
+15. Accuracy Assessment
+16. Change-Detection Method
+17. Forest-Degradation Categories
+18. Drivers and Multi-Criteria Factors
+19. CA–Markov Model
+20. Model Calibration
+21. Model Validation
+22. 2023 Prediction
+23. 2027 Prediction
+24. Above-Ground Biomass Method
+25. Carbon-Stock Method
+26. Ecosystem-Function Interpretation
+27. Main Forest-Loss Findings
+28. Camp and Degraded-Forest Conversion
+29. Biomass-Loss Findings
+30. Carbon-Loss Findings
+31. Protected and Sensitive Forest Impacts
+32. Wildlife and Ecosystem Implications
+33. Authors’ Interpretation
+34. Policy Implications
+35. Author-Stated Limitations
+36. Limitations Identified by Us
+37. Numerical and Terminological Issues
+38. Relevance to Our Research
+39. Research Gap
+40. Comparison with P005
+41. Comparison with P004
+42. Planned Use in Literature Review
+43. Important Tables and Figures
+5. Literature Matrix — P010 row
+Study area
+Cox’s Bazar–Teknaf Peninsula, focusing on 23 forest beats
+within the Cox’s Bazar South Forest Division and an additional
+portion of Naikhongchhari beat in Bandarban Forest Division.
+
+The study used Bangladesh Forest Department administrative units because most refugee camps were established within the South Forest Division.
+
+Research objective
+To quantify forest degradation associated with the Rohingya influx,
+predict future forest-cover change under a business-as-usual
+scenario, and estimate associated loss of ecosystem function through
+above-ground biomass and carbon-stock decline.
+
+The paper explicitly addresses both observed degradation and future ecosystem-function loss.
+
+Study period
+Observed LULC comparison:
+2017–2019
+
+Prediction years:
+2023 and 2027
+
+Exact Sentinel-2A image dates:
+Record directly from the Methods section/table in the PDF.
+
+Do not guess exact dates from the abstract.
+
+Data used
+Multi-temporal Sentinel-2A imagery;
+Bangladesh Forest Department forest-beat boundaries;
+refugee-camp and catchment information;
+population, physiography, accessibility and other dynamic
+driver variables;
+forest biomass and carbon reference information.
+
+The paper confirms Sentinel-2A and collateral/dynamic variables for modelling.
+
+Method
+Supervised multi-date LULC classification;
+post-classification forest-change analysis;
+multi-criteria evaluation of degradation drivers;
+Cellular Automata–Markov modelling for 2023 and 2027;
+above-ground biomass and carbon-stock estimation to represent
+loss of ecosystem function.
+Forest classes
+
+The exact class names must be copied from the PDF legend/table. At minimum the paper later refers to:
+
+Shrub forest
+Mixed forest
+Plantation forest
+Canopy forest
+Rohingya-influenced degraded forest
+Refugee camp
+
+Do not finalize the complete class list until checked in the full text.
+
+6. Main findings
+Observed forest conversion
+Between 2017 and 2019:
+
+Approximately 3,130 ha of different forest-cover categories
+were transformed into refugee camps or Rohingya-influenced
+degraded forest.
+
+This is the paper’s primary observed degradation estimate.
+
+Predicted forest loss
+2019–2023:
+Approximately 3,080 ha additional forest degradation predicted
+
+2019–2027:
+Approximately 5,115–5,120 ha additional forest degradation predicted
+
+The abstract reports approximately 5,115 ha, while the discussion text rounds to 5,120 ha; keep this as a minor rounding inconsistency.
+
+Model assumption
+Prediction assumes that the displaced Rohingya population
+continues residing in the environmentally sensitive region
+and that the prevailing deforestation dynamics persist.
+
+This is a scenario projection, not a causal forecast.
+
+7. Biomass and carbon
+
+P010 is important because it does not only map forest loss; it also estimates above-ground biomass and carbon-stock loss.
+
+Matrix fields:
+
+Forest Loss:
+Yes
+
+Fragmentation:
+Discussed as ecological consequence, but no formal landscape
+fra
+
+=== LINE 366 len=177 ===
+<user_query>Briefly inform the user about the task result and perform any follow-up actions (if needed). If there's no follow-ups needed, don't explicitly say that.</user_query>
+
+=== LINE 367 len=177 ===
+<user_query>Briefly inform the user about the task result and perform any follow-up actions (if needed). If there's no follow-ups needed, don't explicitly say that.</user_query>
+
+=== LINE 374 len=13972 ===
+<timestamp>Thursday, Jul 16, 2026, 3:07 PM (UTC+6)</timestamp>
+<user_query>
+Step 2.4K — P011 Sarkar et al. (2023)
+
+Step 2.4J locked। P010-এর archival PDF পরে replace করা যাবে; অন্য deliverables আর পরিবর্তন করতে হবে না।
+
+P011 open-access এবং complete author-uploaded full text পাওয়া যায়। তাই এটি full-text reviewed হবে, partial নয়। Official articleটি Heliyon, Volume 9, Issue 7, article e18255; 13 July 2023-এ online প্রকাশিত এবং CC BY 4.0 licence-এর অধীনে।
+
+1. Verified metadata
+Paper ID:
+P011
+
+Authors:
+Showmitra Kumar Sarkar
+Mustafa Saroar
+Tanmoy Chakraborty
+
+Year:
+2023
+
+Title:
+Navigating nature’s toll: Assessing the ecological impact
+of the refugee crisis in Cox’s Bazar, Bangladesh
+
+Journal:
+Heliyon
+
+Volume:
+9
+
+Issue:
+7
+
+Article number:
+e18255
+
+Published online:
+13 July 2023
+
+DOI:
+10.1016/j.heliyon.2023.e18255
+
+Publication type:
+Research Article
+
+Peer Reviewed:
+Yes
+
+Access:
+Open Access — CC BY 4.0
+
+2. PDF save
+
+Filename:
+
+2023_sarkar_ecological_impact_refugee_crisis.pdf
+
+Location:
+
+02_Literature_Review\
+Research_Papers\
+01_Direct_Rohingya_Forest_Studies\
+2023_sarkar_ecological_impact_refugee_crisis.pdf
+
+Official ScienceDirect, PMC অথবা author-uploaded ResearchGate full text ব্যবহার করা যাবে।
+
+3. Extraction notes তৈরি
+
+Location:
+
+02_Literature_Review\
+Paper_Extraction_Notes\
+P011_2023_sarkar_extraction_notes.docx
+
+Headings:
+
+P011 — Full-Text Extraction
+
+1. Verified Citation
+2. Publication Status
+3. Research Objectives
+4. Study Area
+5. Study Period and Image Dates
+6. Sentinel-2A/2B Data
+7. Landsat 8 and LST Data
+8. WorldView-2 Reference Data
+9. Field Validation
+10. Training and Testing Split
+11. LULC Classes
+12. Artificial Neural Network
+13. Support Vector Machine
+14. Random Forest
+15. Model Comparison
+16. Accuracy Assessment
+17. LULC Change Detection
+18. Ecosystem Service Valuation
+19. Benefit-Transfer Coefficients
+20. ESV Sensitivity Analysis
+21. Ecosystem-Service Functions
+22. Ecological-Quality Variables
+23. Fuzzy Membership Functions
+24. Fuzzy Operators and GAMMA Model
+25. Markov Transition Matrix
+26. LULC Findings
+27. Forest-Loss Findings
+28. Settlement-Expansion Findings
+29. Ecosystem-Service Findings
+30. Ecological-Quality Findings
+31. Land-Use Carbon Indicator
+32. Authors’ Interpretation
+33. Policy Recommendations
+34. Author-Stated Limitations
+35. Limitations Identified by Us
+36. Numerical and Terminological Inconsistencies
+37. Relevance to Our Research
+38. Research Gap
+39. Comparison with P004 and P010
+40. Planned Use in Literature Review
+41. Important Tables and Figures
+4. Literature Matrix — P011 row
+Study area
+Ukhiya and Teknaf Upazilas, Cox’s Bazar District, Bangladesh,
+covering approximately 57,307.25 ha.
+
+The study focuses on the two upazilas containing most Rohingya camps.
+
+Study period
+Pre/post LULC comparison:
+25 August 2017 and 20 March 2021
+
+LST comparison:
+2017 and 2021
+
+Critical note: 25 August 2017 is described by the authors as the pre-influx image, although that date coincides with the beginning of the major 2017 displacement. It is therefore not an uncontaminated long pre-treatment baseline.
+
+Data used
+Sentinel-2A and Sentinel-2B multispectral imagery;
+Landsat 8 OLI/TIR imagery;
+WorldView-2 imagery at 0.5 m;
+field observations and surveys;
+Bangladesh population data;
+Rohingya population information;
+ecosystem-service value coefficients;
+land-use-specific carbon emission/absorption coefficients.
+
+Sentinel visible and NIR bands were used at 10 m, while Landsat path/row 139/43 supported the 2017 and 2021 LST analysis.
+
+Reference sampling
+Total reference locations:
+600
+
+Source:
+WorldView-2 imagery and field observations/surveys
+
+Training:
+480 samples — 80%
+
+Testing:
+120 samples — 20%
+LULC classes
+1. Agriculture
+2. Forest
+3. Settlement
+4. Water
+
+5. Machine-learning methods
+Artificial Neural Network
+Training iterations:
+1,000
+Support Vector Machine
+Kernel:
+Radial Basis Function — RBF
+
+Regularization:
+C parameter tested using multiple values
+Random Forest
+Number of trees:
+500
+
+mtry:
+5
+
+The three classifiers were compared using overall accuracy and Kappa; ANN produced the strongest reported results for both years.
+
+Accuracy table
+Algorithm	2017 OA	2017 Kappa	2021 OA	2021 Kappa
+ANN	0.97	0.96	0.91	0.89
+Random Forest	0.95	0.94	0.90	0.87
+SVM	0.89	0.86	0.86	0.81
+
+Matrix-এর Method field:
+
+Sentinel-based supervised LULC classification using ANN, Random
+Forest and RBF-SVM; ANN-selected post-classification change
+analysis; Landsat-derived LST; benefit-transfer ecosystem-service
+valuation; fuzzy-logic ecological-quality modelling; Markovian
+EQ-transition analysis.
+6. Main LULC findings
+Class	2017	2021	Change
+Forest	24,982.31 ha	19,494.30 ha	−5,488.01 ha
+Settlement	15,614.00 ha	20,339.45 ha	+4,725.45 ha
+Agriculture	11,711.33 ha	11,853.41 ha	+142.08 ha
+Water	4,999.61 ha	5,620.09 ha	+620.48 ha
+
+Forest share declined from 43.59% to 34.02%, while settlement increased from 27.25% to 35.49%. The reported changes correspond to a 9.58-percentage-point forest reduction and an 8.25-point settlement increase.
+
+Matrix Key Findings:
+
+Forest area decreased by 5,488.01 ha between 2017 and 2021,
+falling from 24,982.31 ha to 19,494.30 ha.
+
+Settlement increased by 4,725.45 ha, from 15,614.00 ha to
+20,339.45 ha.
+
+ANN produced the highest LULC-classification accuracy, with
+overall accuracy of 97% in 2017 and 91% in 2021.
+7. Ecosystem Service Valuation
+
+The study applies a benefit-transfer approach using land-cover-specific coefficients and estimates 16 ecosystem-service functions. It also changes coefficients by ±50% and calculates coefficient sensitivity; reported CS values remained below 1.
+
+Main ESV results
+Total ESV:
+2017 = US$67.83 million
+2021 = US$67.78 million
+
+Forest ESV:
+2017 = US$24.26 million
+2021 = US$18.93 million
+
+Forest ESV change:
+−US$5.33 million
+−21.97%
+
+Water ESV change:
++US$5.27 million
++12.41%
+
+The almost unchanged total ESV masks a large compositional shift: forest-service decline was nearly offset by the coefficient-based increase assigned to water.
+
+8. Ecological-quality model
+
+T
+
+=== LINE 416 len=241 ===
+<timestamp>Thursday, Jul 16, 2026, 3:24 PM (UTC+6)</timestamp>
+
+<user_query>Briefly inform the user about the task result and perform any follow-up actions (if needed). If there's no follow-ups needed, don't explicitly say that.</user_query>
+
+=== LINE 420 len=12089 ===
+<timestamp>Thursday, Jul 16, 2026, 3:37 PM (UTC+6)</timestamp>
+<user_query>
+Step 2.4L — P012 Sarkar et al.
+
+Step 2.4K locked। এখন P012 review হবে।
+
+প্রথমে গুরুত্বপূর্ণ bibliographic correction
+
+P012 online-first হয়েছিল 27 June 2022, কিন্তু final journal issue হলো:
+
+Disaster Medicine and Public Health Preparedness
+Volume 17
+Article e198
+Final publication year: 2023
+
+তাই master matrix-এ:
+
+Year: 2023
+Online first: 27 June 2022
+
+রাখবে। Cambridge এটিকে Original Research, Volume 17, 2023, e198 হিসেবে তালিকাভুক্ত করেছে।
+
+P011 এবং P012-এর authors একই এবং final year-ও 2023। APA reference differentiation হবে:
+
+P012 — Sarkar et al. (2023a)
+Cost of Ecosystem Service Value...
+
+P011 — Sarkar et al. (2023b)
+Navigating Nature’s Toll...
+
+কারণ reference-title alphabetical order-এ Cost... আগে এবং Navigating... পরে আসবে।
+
+1. Verified metadata
+Paper ID:
+P012
+
+Author-year label:
+Sarkar et al., 2023a
+
+Authors:
+Showmitra Kumar Sarkar
+Md. Mustafa Saroar
+Tanmoy Chakraborty
+
+Title:
+Cost of Ecosystem Service Value Due to Rohingya Refugee
+Influx in Bangladesh
+
+Journal:
+Disaster Medicine and Public Health Preparedness
+
+Volume:
+17
+
+Article number:
+e198
+
+Final year:
+2023
+
+Published online:
+27 June 2022
+
+DOI:
+10.1017/dmp.2022.125
+
+Publication type:
+Original Research Article
+
+Peer Reviewed:
+Yes
+
+Official Cambridge record title, authors, online date, final volume, article number এবং DOI confirm করে।
+
+2. PDF সংগ্রহ
+
+ResearchGate search result paperটিকে Full-text available হিসেবে দেখায়। Cambridge publisher page institutional/purchase access চাইতে পারে।
+
+Filename:
+
+2023_sarkar_cost_ecosystem_service_value.pdf
+
+Location:
+
+02_Literature_Review\
+Research_Papers\
+06_Ecosystem_Service_Studies\
+2023_sarkar_cost_ecosystem_service_value.pdf
+
+06_Ecosystem_Service_Studies folder না থাকলে তৈরি করবে।
+
+Full PDF download না হলে status হবে:
+
+Partial review — publisher abstract and metadata verified;
+author full text pending
+
+Full author PDF পাওয়া গেলে complete review করবে।
+
+3. Extraction notes
+
+Location:
+
+02_Literature_Review\
+Paper_Extraction_Notes\
+P012_2023_sarkar_extraction_notes.docx
+
+Headings:
+
+P012 — Full-Text Extraction
+
+1. Verified Citation
+2. Publication and Version Status
+3. Relationship with P011
+4. Research Objective
+5. Study Area
+6. Study Period
+7. Satellite Image Dates
+8. Satellite Data and Bands
+9. Reference and Validation Data
+10. LULC Classes
+11. ANN Classification Method
+12. Training and Testing Design
+13. Classification Accuracy
+14. LULC Change Detection
+15. Ecosystem-Service Framework
+16. Benefit-Transfer Method
+17. Ecosystem Types and Proxy Assignment
+18. Ecosystem-Service Coefficients
+19. Total Ecosystem-Service Value
+20. Provisioning Services
+21. Regulating Services
+22. Supporting Services
+23. Cultural Services
+24. Raw-Material Value
+25. Biodiversity Value
+26. Sensitivity Analysis
+27. Main Forest Findings
+28. Settlement Findings
+29. Main ESV Findings
+30. Authors’ Interpretation
+31. Policy Recommendations
+32. Author-Stated Limitations
+33. Limitations Identified by Us
+34. Numerical and Cross-Paper Inconsistencies
+35. Relevance to Our Research
+36. Research Gap
+37. Comparison with P011
+38. Planned Use in Literature Review
+39. Important Tables and Figures
+4. Literature Matrix — P012 row
+Study area
+Ukhiya and Teknaf upazilas, Cox’s Bazar District, Bangladesh.
+
+The official abstract identifies Ukhiya and Teknaf as the study area.
+
+Study period
+LULC comparison:
+2017 and 2021
+
+Exact image dates:
+Verify directly from the P012 PDF.
+
+Online abstract describes 2017 as pre-influx, but the actual
+baseline date must be checked because P011 used 25 August 2017.
+
+The article reports an ANN-based comparison between 2017 and 2021.
+
+Data Used
+
+Before full-text verification:
+
+Multi-temporal satellite imagery;
+reference land-cover samples;
+Ukhiya–Teknaf boundary data;
+ecosystem-service value coefficients used through a
+benefit-transfer approach.
+
+Exact sensor, image dates, bands, sample counts and source
+coefficients require verification from the full PDF.
+
+Do not automatically copy every P011 method field into P012 until the PDF confirms it, even though the datasets and results appear closely related.
+
+Method
+Artificial Neural Network supervised LULC classification;
+post-classification land-cover change analysis;
+benefit-transfer ecosystem-service valuation;
+ecosystem-service category comparison between 2017 and 2021.
+
+The official abstract explicitly confirms ANN classification and benefit-transfer ESV estimation.
+
+5. Verified main results
+Forest change
+Forest loss:
+54.88 km²
+
+Equivalent:
+5,488 ha
+
+Reported percentage change:
+−9.58 percentage points
+Settlement change
+Settlement increase:
+47.26 km²
+
+Equivalent:
+4,726 ha
+
+Reported percentage change:
++8.25 percentage points
+
+These match the broad LULC changes recorded in P011.
+
+Total ESV
+2017 total ESV:
+US$310.13 million
+
+2021 total ESV:
+US$332.94 million
+
+Net change:
++US$22.81 million
+
+The authors attribute the overall increase primarily to land-cover composition changes associated with settlement and other classes, despite forest-service losses.
+
+Service-specific losses
+Raw-material ESV decline:
+13.58%
+
+Biodiversity ESV decline:
+14.57%
+
+These are the values stated in the official abstract.
+
+6. Matrix classification fields
+Forest Loss:
+Yes — 54.88 km² forest decline reported
+
+Fragmentation:
+No
+
+Carbon:
+No direct biomass or forest-carbon accounting
+
+Ecosystem Services:
+Yes — primary outcome
+
+ML/XAI:
+ML: Yes — ANN land-cover classification
+XAI: No
+
+Causal Inference:
+No — two-date observational comparison without counterfactual control
+
+Relevance:
+High — ecosystem-service valuation evidence
+
+Publication Type:
+Original Research Article
+
+Peer Reviewed:
+Yes
+Full-text status
+
+Full PDF reviewed হলে:
+
+Author/full publisher text downloaded and reviewed
+
+PDF না পাওয়া গেলে:
+
+Official metadata and abstract reviewed;
+full methodological extraction pending
+7. সবচেয়ে গুরুত্বপূর্ণ cross-paper inconsistency
+
+P011 এবং P012 একই authors, একই general study area, একই 2017–2021 LULC change এবং প্রায় একই forest/s
+
+=== LINE 436 len=241 ===
+<timestamp>Thursday, Jul 16, 2026, 3:45 PM (UTC+6)</timestamp>
+
+<user_query>Briefly inform the user about the task result and perform any follow-up actions (if needed). If there's no follow-ups needed, don't explicitly say that.</user_query>
+
+=== LINE 439 len=15321 ===
+<timestamp>Thursday, Jul 16, 2026, 4:07 PM (UTC+6)</timestamp>
+<user_query>
+Step 2.4M — P013 Ahmed et al. (2024)
+
+Step 2.4L locked। P012-এর working PDF পরে official author copy দিয়ে replace করা যাবে; matrix, notes, decisions এবং findings আর পরিবর্তন করতে হবে না।
+
+P013-এর author-uploaded complete article text পাওয়া যাচ্ছে, তাই এটি full-text review হবে। Official Springer record অনুযায়ী paperটি Environmental Monitoring and Assessment, Volume 196, article 555; published 18 May 2024।
+
+1. Verified metadata
+Paper ID:
+P013
+
+Authors:
+Faishal Ahmed
+Siam Alam
+Ovi Ranjan Saha
+Afeefa Rahman
+
+Year:
+2024
+
+Title:
+The Rohingya refugee crisis in Bangladesh:
+assessing the impact on land use patterns and land
+surface temperature using machine learning
+
+Journal:
+Environmental Monitoring and Assessment
+
+Volume:
+196
+
+Issue:
+6
+
+Article number:
+555
+
+Published:
+18 May 2024
+
+DOI:
+10.1007/s10661-024-12701-3
+
+Publication Type:
+Research Article
+
+Peer Reviewed:
+Yes
+
+Official bibliographic record, author list, publication date এবং DOI confirmed।
+
+2. PDF save
+
+Filename:
+
+2024_ahmed_rohingya_lulc_lst_machine_learning.pdf
+
+Location:
+
+02_Literature_Review\
+Research_Papers\
+01_Direct_Rohingya_Forest_Studies\
+2024_ahmed_rohingya_lulc_lst_machine_learning.pdf
+
+ResearchGate author-uploaded copy manually download করতে না পারলে full text review author-public text থেকে করা যাবে এবং temporary archival PDF রাখা যাবে। তবে Full-text reviewed status-এর notes-এ source লিখবে:
+
+Full article text reviewed from the author-uploaded public version;
+binary author PDF to be archived when available.
+3. Extraction notes তৈরি
+
+Location:
+
+02_Literature_Review\
+Paper_Extraction_Notes\
+P013_2024_ahmed_extraction_notes.docx
+
+Headings:
+
+P013 — Full-Text Extraction
+
+1. Verified Citation
+2. Publication and Access Status
+3. Research Objectives
+4. Study Area
+5. Historical Camp-Core Analysis Area
+6. Upazila-Wide Prediction Area
+7. Study Period
+8. Landsat Image Dates
+9. Satellite Sensors and Resolution
+10. Ancillary Spatial Data
+11. Image Preprocessing
+12. LULC Classes
+13. Iso-Cluster Classification
+14. Google Earth Verification
+15. LST Estimation
+16. NDVI, NDBI and NDWI
+17. Land-Surface Emissivity
+18. CA–ANN Model
+19. MOLUSCE Implementation
+20. Model Calibration
+21. LULC Validation
+22. LST Validation Approach
+23. Historical LULC Findings
+24. Historical LST Findings
+25. Post-2017 Camp Expansion
+26. 2028 and 2034 LULC Prediction
+27. 2028 and 2034 LST Prediction
+28. Forest and Vegetation Implications
+29. Wildlife and Ecosystem Implications
+30. Authors’ Interpretation
+31. Author-Stated Limitations
+32. Limitations Identified by Us
+33. Numerical and Methodological Inconsistencies
+34. Relevance to Our Research
+35. Research Gap
+36. Comparison with P004 and P010
+37. Planned Use in Literature Review
+38. Important Tables and Figures
+4. Literature Matrix — P013 row
+Study area
+Historical descriptive analysis:
+Approximately 24 km² Rohingya camp landscape within
+Ukhiya and Teknaf, Cox’s Bazar.
+
+Prediction domain:
+The wider Ukhiya and Teknaf upazilas.
+
+Approximate camp coordinates:
+20°54′00″–21°14′00″ N
+92°08′00″–92°16′00″ E
+
+Paperটি camp-core historical analysis এবং wider Ukhiya–Teknaf prediction—দুটি spatial domain ব্যবহার করেছে। এই difference অবশ্যই notes-এ পরিষ্কার রাখবে।
+
+Study period
+Historical LULC and LST:
+1997–2022
+
+Main interval:
+Approximately 5 years
+
+Prediction years:
+2028 and 2034
+
+CA–ANN calibration:
+2018 and 2020 used to simulate 2022
+Exact image dates
+1997 — 19 January
+2002 — 09 January
+2007 — 15 January
+2012 — 21 January
+2017 — 26 January
+2018 — 13 January
+2020 — 19 January
+2022 — 08 January
+
+The study used 30 m Landsat TM, ETM+ and OLI/TIRS imagery, largely from January and with reported cloud cover below 10%।
+
+Important sensor-label note
+
+Paper Table 1 labels the later sensor as:
+
+Landsat 8–9 OLI and TIRS
+
+কিন্তু 2017, 2018 এবং 2020 dates-এর জন্য Landsat 9 technically applicable নয়। Extraction notes-এ publisher table wording preserve করবে এবং sensor naming inconsistency flag করবে। Exact scene IDs available থাকলে Landsat metadata দিয়ে later verify করবে।
+
+Ancillary data
+30 m DEM
+Road network
+River/stream network
+Google Earth Pro reference imagery
+
+The DEM, roads and river network were used as spatial inputs for prediction.
+
+5. Historical LULC method
+Classification:
+Iso-cluster unsupervised classification
+
+Classes:
+1. Water body
+2. Settlement
+3. Barren land
+4. Vegetation
+
+Verification:
+Google Earth Pro visual/reference comparison
+
+Vegetation combines dense and sparse vegetation, trees, grassland and agriculture. তাই এই paper-এর Vegetation result-কে সরাসরি Forest result বলা যাবে না।
+
+Matrix method field
+Multi-date 30 m Landsat LULC and LST analysis using iso-cluster
+unsupervised classification; TOA radiance, brightness temperature,
+NDVI-derived emissivity and LST calculation; CA–ANN prediction
+implemented through MOLUSCE using DEM, roads, streams and
+post-2017 LULC inputs.
+6. LST method
+
+The study calculated:
+
+TOA spectral radiance
+Brightness temperature
+NDVI
+Proportion of vegetation
+Land-surface emissivity
+Land-surface temperature
+
+It later used:
+
+NDVI
+NDBI
+NDWI
+
+as explanatory spatial variables for future LST prediction.
+
+7. CA–ANN prediction
+Software:
+QGIS 2.18.26
+
+Plugin:
+MOLUSCE
+
+Model:
+Cellular Automata–Artificial Neural Network
+
+Calibration inputs:
+2018 LULC
+2020 LULC
+DEM
+Distance from roads
+Distance from streams
+
+Validation:
+Simulated 2022 map compared with observed/classified 2022 map
+
+Future iterations:
+2028 — iteration 3
+2034 — iteration 6
+
+The authors tuned model settings to maximize validation Kappa, but the article does not transparently report all final hidden-layer, neighbourhood, momentum and sampling parameters.
+
+8. Validation results
+LULC validation
+Reference points:
+60 random points
+
+Reference source:
+Google Earth Pro
+
+Overall accuracy:
+Approximately 92%
+
+Kappa:
+0.89
+
+Class results:
+
+User Accuracy:
+Water = 1.00
+Settlement = 0.92
+Bare land = 0.79
+Vegetation = 0.95
+
+Producer Accuracy:
+Water = 0.94
+Settlement = 0.85
+Bare land = 0.92
+Vegetat
+
+=== LINE 453 len=19660 ===
+<timestamp>Thursday, Jul 16, 2026, 4:17 PM (UTC+6)</timestamp>
+<user_query>
+Step 2.4N — P014 Gromny et al. (2024)
+
+Step 2.4M locked। এখন P014-এর open-access full-text review হবে।
+
+P014 Cox’s Bazar case study নয়; এটি Tanzania-এর Mtendeli refugee camp নিয়ে একটি comparative annual remote-sensing এবং socioeconomic-driver study। Paperটি camp opening, operation, closure এবং immediate restoration—পুরো lifecycle 2016–2022 পর্যন্ত annualভাবে analyse করেছে।
+
+1. Verified metadata
+Paper ID:
+P014
+
+Authors:
+Ewa Gromny
+Małgorzata Jenerowicz-Sanikowska
+Jörg Haarpaintner
+Sebastian Aleksandrowicz
+Edyta Woźniak
+Lluís Pesquer Mayos
+Magdalena Chułek
+Karolina Sobczak-Szelc
+Anna Wawrzaszek
+Szymon Sala
+Astrid Espegren
+Daniel Starczewski
+Zofia Pawlak
+
+Year:
+2024
+
+Title:
+Remote sensing insights into land cover dynamics and
+socio-economic drivers: The case of Mtendeli refugee camp,
+Tanzania (2016–2022)
+
+Journal:
+Remote Sensing Applications: Society and Environment
+
+Volume:
+36
+
+Article number:
+101334
+
+Available online:
+10 September 2024
+
+DOI:
+10.1016/j.rsase.2024.101334
+
+Publication type:
+Research Article
+
+Peer Reviewed:
+Yes
+
+Access:
+Open Access — CC BY-NC 4.0
+
+Official article text publication date, journal volume, DOI, author list এবং licence confirm করে।
+
+2. PDF save
+
+Filename:
+
+2024_gromny_mtendeli_land_cover_drivers.pdf
+
+Location:
+
+02_Literature_Review\
+Research_Papers\
+05_Comparative_Refugee_Environment_Studies\
+2024_gromny_mtendeli_land_cover_drivers.pdf
+
+ResearchGate-এ author-uploaded full article available এবং articleটি open access।
+
+3. Extraction notes তৈরি
+
+Location:
+
+02_Literature_Review\
+Paper_Extraction_Notes\
+P014_2024_gromny_extraction_notes.docx
+
+Headings:
+
+P014 — Full-Text Extraction
+
+1. Verified Citation
+2. Publication and Access Status
+3. Research Objectives
+4. Research Questions
+5. Study Area
+6. Refugee-Camp Context
+7. Camp Lifecycle
+8. Analysis Extent
+9. Distance Buffers
+10. Study Period
+11. Sentinel-1 Dataset
+12. Sentinel-2 Dataset
+13. Landsat-8 Supplement
+14. SRTM and Ancillary Data
+15. WorldCover Training Reference
+16. Local Adaptation of the Legend
+17. Land-Cover Classes
+18. Managed Woody Vegetation Class
+19. Training-Sample Preparation
+20. NDVI and Morphological Filtering
+21. Sentinel-1 Preprocessing
+22. Sentinel-2 Preprocessing
+23. Spectral Indices
+24. Random Forest Classification
+25. Annual Probability Aggregation
+26. Post-Classification Filtering
+27. Accuracy-Assessment Design
+28. 2020 Validation
+29. 2022 Field Validation
+30. Annual LULC Findings
+31. Camp-Development Findings
+32. Distance-Decay Findings
+33. Tree-Cover and Shrub Findings
+34. Cropland Expansion
+35. Fuelwood and Charcoal Drivers
+36. Fire and Soil-Degradation Drivers
+37. Camp Closure
+38. Natural Succession
+39. Managed Restoration
+40. Qualitative Interviews
+41. Driver Triangulation
+42. Author-Stated Limitations
+43. Limitations Identified by Us
+44. Relevance to Our Research
+45. Research Gap
+46. Comparison with P009
+47. Comparison with P006 and P008
+48. Planned Use in Literature Review
+49. Important Tables and Figures
+4. Literature Matrix — P014 row
+Study area
+Mtendeli Refugee Camp and surrounding landscape,
+Kigoma Region, north-western Tanzania.
+
+Remote-sensing AOI:
+40 km × 40 km polygon centred on the camp.
+
+Spatial zones:
+1. Camp area — approximately 2 km radius
+2. 0–5 km buffer outside the camp
+3. 5–10 km buffer
+4. 10–15 km buffer
+
+The distance rings were used to analyse whether the intensity and type of land-cover change declined with increasing distance from the camp।
+
+Camp lifecycle
+Camp opened:
+2016
+
+Peak development and population:
+2017
+
+Camp operating period:
+2016–2021
+
+Camp closure:
+2021
+
+Post-closure observation:
+2022
+
+Mtendeli was opened for Burundian refugees, reached more than 50,000 residents during its early operation and was closed in December 2021।
+
+Study period
+Annual land-cover maps:
+2016–2022
+
+Camp-operation change period:
+2016–2021
+
+Post-closure change period:
+2021–2022
+
+Field validation:
+July 2022
+
+The methodology produced seven annual 10 m land-cover maps।
+
+5. Data Used
+Sentinel-1 SAR imagery;
+Sentinel-2 multispectral imagery;
+Landsat-8 imagery for 2016 supplementation;
+SRTM 1-arc-second DEM;
+ESA WorldCover 2020;
+OpenStreetMap built-up data;
+RapidEye contextual imagery;
+UNHCR population factsheets;
+agricultural-production statistics;
+July 2022 field observations;
+semi-structured key-informant interviews;
+secondary NGO and institutional reports.
+
+The paper combines Sentinel-1/2 annual mapping with field observations and qualitative local-expert evidence।
+
+6. Satellite preprocessing
+Sentinel-1
+Data type:
+Ground Range Detected SAR
+
+Resolution:
+10 m
+
+Polarizations:
+VV and VH
+
+Coverage:
+S1A and S1B for 2017–2021
+S1A only for 2022
+
+Processing:
+Geocoding
+Radiometric calibration
+Terrain and slope correction
+SRTM-based correction
+
+Temporal aggregation:
+Quarterly gamma-nought backscatter mosaics
+Q1, Q2, Q3 and Q4
+
+Quarterly SAR mosaics were used to capture seasonal vegetation structure and reduce speckle and isolated-event effects।
+
+Sentinel-2
+Images:
+Approximately 10–15 low-cloud images per year
+
+Spatial inputs:
+10 m and 20 m bands
+
+Atmospheric correction:
+Sen2Cor version 02.05.05
+
+Additional processing:
+Cloud removal
+Cloud-shadow removal
+Abnormal-pixel removal
+Burned-area masks
+
+Sentinel-2 dry- and rainy-season observations were combined rather than relying on one annual image।
+
+Landsat-8
+Role:
+Supplement Sentinel-2 for 2016 because sufficiently cloud-free
+Sentinel-2 imagery was limited.
+
+Product:
+Surface reflectance
+
+7. Training dataset and legend
+Training-reference source
+Primary reference:
+ESA WorldCover 2020
+
+Local adaptation:
+Class descriptions adapted using regional experts and
+Tanzania UNFCCC land-cover definitions.
+
+WorldCover was used as a starting point, but the authors filtered and locally modified it because global products alone did not provide adequate temporal and thematic detail।
+
+Initial classes — 2016–2021
+
+Record the exact Table 3 labels:
+
+1. Open water — permanent
+2. Tree cover
+3. Shrub
+4.
+
+=== LINE 465 len=765 ===
+<timestamp>Thursday, Jul 16, 2026, 4:20 PM (UTC+6)</timestamp>
+<user_query>
+Run the `continual-learning` skill now. Use the `agents-memory-updater` subagent for the full memory update flow. Use incremental transcript processing with index file `F:\Ratul\Ruhinga\Rohingya_Forest_Impact_Research\.cursor\hooks\state\continual-learning-index.json`: only consider transcripts not in the index or transcripts whose mtime is newer than indexed mtime. Have the subagent refresh index mtimes, remove entries for deleted transcripts, and update `AGENTS.md` only for high-signal recurring user corrections and durable workspace facts. Exclude one-off/transient details and secrets. If no meaningful updates exist, respond exactly: No high-signal memory updates.
+</user_query>
